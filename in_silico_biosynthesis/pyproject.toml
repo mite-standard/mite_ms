@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.urls]
+"Repository" = "https://github.com/mite-standard/mite_ms"
+
+[project]
+name = "module"
+version = "0.1.0"
+requires-python = ">=3.12"
+authors = [
+    { name = "Mitja M. Zdouc", email = "zdoucmm@gmail.com" }
+]
+dependencies = [
+    "requests~=2.32",
+    "rdkit~=2024.3"
+]
+
+[project.scripts]
+main = "module.main:main"
+
