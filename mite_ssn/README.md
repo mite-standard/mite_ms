@@ -7,6 +7,8 @@ The script prepares files for a specific record of mite_data (a version), given 
 
 The generated fasta file still needs to be run with EFI-EST and visualized in Cytoscape. The generated metadata.csv file can be used to annotate this file.
 
+Additionally, a boxplot is generated to indicate the distributions of BLAST matches against the NCBI NR protein database. The statistical summary can be found in an accompanying json file.
+
 For more information on MITE, see the README of the [MITE-Standard organisation page](https://github.com/mite-standard).
 
 ## Run the script

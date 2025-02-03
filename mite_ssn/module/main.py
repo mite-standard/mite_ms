@@ -34,9 +34,12 @@ import time
 import argparse
 from Bio import SeqIO
 from Bio.Blast import NCBIWWW, NCBIXML
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 import pandas as pd
 from pydantic import BaseModel
 import requests
+import seaborn as sns
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -322,6 +325,68 @@ class MetadataManager(AbstractManager):
         self.metadata_efi_est["ncbi_nr_matches"].append(counter)
 
 
+class PlotManager(AbstractManager):
+    """Organizes code for plotting"""
+
+    def run(self) -> None:
+        """Creates boxplot of NCBI NR matches"""
+
+        infile = self.output.joinpath("mite_ssn_metadata.csv")
+
+        if not infile.exists():
+            logger.warning(f"Could not find input data '{infile}' - SKIP")
+
+        df = pd.read_csv(infile)
+        df.sort_values(by=["ncbi_nr_matches"], ascending=True, inplace=True)
+
+        plt.figure(figsize=(4, 6))
+        sns.boxplot(y=df["ncbi_nr_matches"], width=0.4)
+        plt.yscale("log")
+
+        plt.tight_layout()
+
+        plt.subplots_adjust(
+            top=0.975,  # Control the top margin
+            bottom=0.5,  # Control the bottom margin
+            left=0.5,  # Control the left margin
+            right=0.963,  # Control the right margin
+        )
+
+        plt.tick_params(axis="y", labelsize=14)
+
+        def thousands(x, pos):
+            """The two args are the value and tick position"""
+            return f"{int(x):,}"
+
+        plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(thousands))
+
+        plt.savefig(self.output.joinpath("log_boxplot.svg"), format="svg")
+
+        self.write_summary(df)
+
+    def write_summary(self, df: pd.DataFrame) -> None:
+        """Write data summary of boxplot"""
+        summary = df["ncbi_nr_matches"].describe()
+
+        summary = {
+            "count": summary["count"],
+            "mean": summary["mean"],
+            "std": summary["std"],
+            "25%": summary["25%"],
+            "50%": summary["50%"],
+            "75%": summary["75%"],
+            "max": summary["max"],
+            "iqr": summary["75%"] - summary["25%"],
+            "lower_bound": summary["25%"] - (1.5 * (summary["75%"] - summary["25%"])),
+            "upper_bound": summary["75%"] + (1.5 * (summary["75%"] - summary["25%"])),
+        }
+
+        json_dict = {key: float(value) for key, value in summary.items()}
+
+        with open(self.output.joinpath("boxplot_summary.json"), "w") as outfile:
+            outfile.write(json.dumps(json_dict, indent=2))
+
+
 def main() -> None:
     """Function to execute main body of code"""
 
@@ -343,6 +408,9 @@ def main() -> None:
 
     metadata_manager = MetadataManager()
     metadata_manager.run()
+
+    plot_manager = PlotManager()
+    plot_manager.run()
 
 
 if __name__ == "__main__":
