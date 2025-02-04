@@ -1,6 +1,7 @@
 # Custom
 .idea
 mite_ssn/module/data
+mite_descriptive/module/data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
