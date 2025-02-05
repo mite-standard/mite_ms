@@ -268,7 +268,6 @@ class PlotManager(AbstractManager):
         self.plot_countplot(df)
         self.plot_pieplot(df)
 
-        # TODO: add the pie chart
 
     def plot_countplot(self, df: pd.DataFrame):
         """Plot of tailoring labels"""
