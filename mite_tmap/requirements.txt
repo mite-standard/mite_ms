@@ -1,0 +1,12 @@
+argparse
+drfp
+faerun
+matplotlib
+numpy==1.26.4
+pandas
+pydantic
+rdkit
+requests
+ruff
+scikit-learn
+seaborn
