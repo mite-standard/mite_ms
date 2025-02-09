@@ -4,6 +4,7 @@ mite_ssn/module/data
 mite_descriptive/module/data
 mite_tmap/module/data
 mite_tmap/module/output/rxn_smiles.pickle
+mite_orcid_wordcloud/module/data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
