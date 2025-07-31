@@ -34,6 +34,9 @@ def plot() -> None:
     df_clean = df[(df[inner] != "Not found") & (df[outer] != "Not found")]
     sunburst_data = df_clean.groupby([inner, outer]).size().reset_index(name='count')
 
+    print("Number of retained entries for sunburst plot:")
+    print(sunburst_data["count"].sum())
+
     fig = px.sunburst(
         sunburst_data,
         path=[inner, outer],

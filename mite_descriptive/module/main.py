@@ -162,6 +162,7 @@ class MetadataManager(AbstractManager):
     """Class to generate metadata file
 
     metadata: a dict containing metadata
+    datapoints: all mite entries flattened to count datapoints
     """
 
     metadata: dict = {
@@ -175,6 +176,7 @@ class MetadataManager(AbstractManager):
         "id_mibig": [],
         "rhea_mibig": [],
     }
+    datapoints: list = []
 
     def run(self) -> None:
         """Iterate over MITE fasta files to prepare metadata"""
@@ -192,6 +194,18 @@ class MetadataManager(AbstractManager):
         df1 = pd.DataFrame(self.metadata)
         df1.to_csv(Path(self.output).joinpath("mite_metadata.csv"), index=False)
 
+        with open(Path(self.output).joinpath("flat_mite.csv"), 'w') as f:
+
+            cleaned = []
+            for line in self.datapoints:
+                if line[0].startswith("changelog"):
+                    continue
+                else:
+                    cleaned.append(line[1])
+
+            for line in set(cleaned):
+                f.write(f"{line}\n")
+
     def extract_mite(self, acc: str, idx: int) -> None:
         """Extracts metadata for SSN from mite files
 
@@ -201,6 +215,9 @@ class MetadataManager(AbstractManager):
         """
         with open(self.data.joinpath(f"{acc}.json")) as mite_file:
             mite_data = json.load(mite_file)
+
+        flattened = self.flatten(mite_data)
+        self.datapoints.extend(flattened)
 
         self.metadata["key"].append(f"{idx}".rjust(7, "z"))
         self.metadata["mite_acc"].append(mite_data["accession"])
@@ -251,12 +268,33 @@ class MetadataManager(AbstractManager):
         else:
             self.metadata["rhea_mibig"].append("No crosslink")
 
+    def flatten(self, data: dict, parent_key=''):
+        """Extracts data points from MITE entries
+
+        Args:
+            data: a MITE dict
+        """
+        items = []
+
+        if isinstance(data, dict):
+            for k, v in data.items():
+                new_key = f"{parent_key}.{k}" if parent_key else k
+                items.extend(self.flatten(v, new_key))
+        elif isinstance(data, list):
+            for i, v in enumerate(data):
+                new_key = f"{parent_key}[{i}]"
+                items.extend(self.flatten(v, new_key))
+        else:
+            items.append((parent_key, data))
+
+        return items
+
+
 
 class PlotManager(AbstractManager):
     """Organizes code for plotting"""
 
     def run(self) -> None:
-        """Creates boxplot of NCBI NR matches"""
 
         infile = self.output.joinpath("mite_metadata.csv")
 
@@ -288,7 +326,7 @@ class PlotManager(AbstractManager):
         df_sorted = df.sort_values(by=["rhea_mibig"], ascending=True)
         value_counts = df_sorted["rhea_mibig"].value_counts()
 
-        plt.figure(figsize=(2, 2))
+        plt.figure(figsize=(4, 4))
         plt.pie(
             value_counts,
             labels=value_counts.index,

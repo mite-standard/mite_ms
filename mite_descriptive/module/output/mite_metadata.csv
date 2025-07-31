@@ -2,191 +2,205 @@ key,mite_acc,enzyme_name,enzyme_description,tailoring,id_uniprot,id_genpept,id_m
 zzzzzz0,MITE0000175,BytO,cytochrome P450,Biaryl bond formation,A0A891LWT6,QRM13814.1,BGC0002084,MIBiG
 zzzzzz1,MITE0000048,BotP,Peptidase,Hydrolysis,K4MHW2,AFV25490.1,BGC0000469,MIBiG
 zzzzzz2,MITE0000183,EryK,Cytochrome P450,Hydroxylation,P48635,CAM00054.1,BGC0000055,Rhea+MIBiG
-zzzzzz3,MITE0000134,THAS,Oxidosqualene cyclase,Cyclization,UPI000A29AD50,CAH8278777.1,BGC0002857,Rhea+MIBiG
-zzzzzz4,MITE0000039,Vmt,Methyltransferase,Methylation,E9LY85,AEI58876.1,BGC0000455,MIBiG
-zzzzzz5,MITE0000189,BorJ,Aminotransferase,Amination,Q70HZ5,CAE45674.1,BGC0000031,MIBiG
-zzzzzz6,MITE0000180,SLI_0884,Leucyl/Phenylalanil-tRNA-Protein transferase,Other,A0A7U9H9E4,EOY45603.1,BGC0001168,MIBiG
-zzzzzz7,MITE0000162,PhoG,Anthrone oxygenase,Oxidation,UPI00206D4B6A,UPG58736.1,BGC0003093,MIBiG
-zzzzzz8,MITE0000104,TrlC,Oxygenase component of flavoprotein monooxygenase TrlCD,Hydroxylation,A0A2S1JZG6,AWF83807.1,BGC0001487,MIBiG
-zzzzzz9,MITE0000125,JuiL,Cytochrome P450,Biaryl bond formation,A0A7G8Z073,QNL10608.1,BGC0002514,MIBiG
-zzzzz10,MITE0000132,THAA2,Acetyltransferase,Acetylation,D7MUV7,EFH40094.1,BGC0002857,MIBiG
-zzzzz11,MITE0000018,MtmGIV,glycosyltransferase,Glycosylation,Q194Q0,CAK50788.1,BGC0000247,MIBiG
-zzzzz12,MITE0000177,Ple2,Acetyltransferase,Acetylation,A0A6S6QLX9,BCI98770.1,BGC0002181,MIBiG
-zzzzz13,MITE0000184,RufO,Cytochrome p450 monooxygenase,Other,A0A224AU14,BBA20962.1,BGC0001763,MIBiG
-zzzzz14,MITE0000074,ClmM1,S-methyltransferase,Methylation,H1ZYV7,CCC55912.1,BGC0000973,MIBiG
-zzzzz15,MITE0000073,ClmAH,Amidohydrolase,Hydrolysis,H1ZYT5,CCC55916.1,BGC0000973,MIBiG
-zzzzz16,MITE0000187,HrmI,heme oxygenase-like dinuclear iron enzyme,Oxidation,F8S6W0,AEH41787.1,BGC0000374,MIBiG
-zzzzz17,MITE0000093,PhmJ,FAD-dependent halogenase,Halogenation,A0A125SL25,AMH40426.1,BGC0001350,MIBiG
-zzzzz18,MITE0000038,OxyA,Cytochrome P450 Monooxygenase,Multiple,F8STX6,AEI58868.1,BGC0000455,MIBiG
-zzzzz19,MITE0000197,HynC,non-heme diiron monooxygenase,Hydroxylation,,QWP75303.1,BGC0002126,MIBiG
-zzzzz20,MITE0000188,BorI,Cytochrome P450 monooxygenase,Multiple,Q70HZ6,CAE45673.1,BGC0000031,MIBiG
-zzzzz21,MITE0000186,HrmF,L-DOPA dioxygenase,Other,F8S6V7,AEH41784.1,BGC0000374,MIBiG
-zzzzz22,MITE0000013,GrhO6,Flavoprotein monooxygenase,Monooxygenation,Q8KSX5,AAM33673.1,BGC0000230,MIBiG
-zzzzz23,MITE0000090,TPS21,Terpene cyclase,Cyclization,R9R6P6,AGK82800.1,BGC0001322,MIBiG
-zzzzz24,MITE0000196,HynE,alpha-ketoglutarate-dependent dioxygenase,Hydroxylation,,QWP75301.1,BGC0002126,MIBiG
-zzzzz25,MITE0000002,AviG4,O-methyltransferase,Methylation,L8PIQ8,ELS56114.1,BGC0000026,MIBiG
-zzzzz26,MITE0000121,AbmB,L-Ornithine N(5)-oxygenase,Hydroxylation,I1ZAY9,AFJ20768.1,BGC0002300,Rhea+MIBiG
-zzzzz27,MITE0000069,RebH,tryptophane halogenase,Halogenation,Q8KHZ8,AAN01216.1,BGC0000821,Rhea+MIBiG
-zzzzz28,MITE0000008,CalO2,Cytochrome P450me,Hydroxylation,Q8KND6,AAM94799.1,BGC0000033,MIBiG
-zzzzz29,MITE0000019,MtmGIII,glycosyltransferase,Glycosylation,Q194P9,CAK50789.1,BGC0000247,MIBiG
-zzzzz30,MITE0000014,MtmMI,O-methyltransferase,Methylation,Q194P7,CAK50791.1,BGC0000247,MIBiG
-zzzzz31,MITE0000130,ThnH,tryptophan 6-halogenase,Halogenation,A0A142I756,AMR44308.1,,Rhea
-zzzzz32,MITE0000057,PntE,Baeyer-Villiger monooxygenase,Oxidation,E3VWI7,ADO85575.1,BGC0000653,Rhea+MIBiG
-zzzzz33,MITE0000047,BotRMT3,radical SAM methyltransferase,Methylation,K4MHG1,AFV25488.1,BGC0000469,MIBiG
-zzzzz34,MITE0000050,BotAH,Aminohydrolase,Hydrolysis,K4MV58,AFV25486.1,BGC0000469,MIBiG
-zzzzz35,MITE0000066,RebP,Cytochrome P-450,Oxidation,Q8KIC8,AAN01211.1,BGC0000821,MIBiG
-zzzzz36,MITE0000192,CtoA,Halogenase,Halogenation,A0A0M4KXQ6,ALD83700.1,BGC0001299,MIBiG
-zzzzz37,MITE0000170,ProsK,Cytochrome P450,Cyclization,,WPM83319.1,BGC0003094,MIBiG
-zzzzz38,MITE0000022,SsfM4,C-methyltransferase,Methylation,D6MSU6,ADE34484.1,BGC0000269,MIBiG
-zzzzz39,MITE0000005,CalO3,Flavin-dependent halogenase,Halogenation,Q8KND5,AAM70353.1,BGC0000033,MIBiG
-zzzzz40,MITE0000049,BotRMT1,rSAM methyltransferase,Methylation,K4MHV5,AFV25480.1,BGC0000469,MIBiG
-zzzzz41,MITE0000042,GtfD,Glycosyltransferase,Glycosylation,P96564,AEI58872.1,BGC0000455,MIBiG
-zzzzz42,MITE0000127,AetA,Flavin-dependent halogenase,Halogenation,A0A861B8S3,QNL15171.1,BGC0002643,MIBiG
-zzzzz43,MITE0000193,AlbA,Albonoursin synthase/cyclic dipeptide oxidase,Dehydrogenation,Q8GED9,AAN07907.1,BGC0000851,Rhea+MIBiG
-zzzzz44,MITE0000043,SgvP,cytochrome P450,Heterocyclization,R9USI6,AGN74891.1,BGC0000459,MIBiG
-zzzzz45,MITE0000071,Bmp2,Flavin-dependent halogenase,Halogenation,U6BGC3,AHA34035.1,BGC0000891,MIBiG
-zzzzz46,MITE0000126,AetF,Flavin-dependent halogenase,Halogenation,A0A861B9Z9,QNL15176.1,BGC0002643,MIBiG
-zzzzz47,MITE0000174,BytO,cytochrome P450,Biaryl bond formation,A0A891LYB2,QRM13816.1,BGC0002099,MIBiG
-zzzzz48,MITE0000021,SsfM2,O-methyltransferase,Methylation,D6MSW0,ADE34498.1,BGC0000269,MIBiG
-zzzzz49,MITE0000041,OxyB,Cytochrome P450 Monooxygenase,Multiple,F8STX7,AEI58869.1,BGC0000455,MIBiG
-zzzzz50,MITE0000165,PhoN,Isomerase,Other,,UPG58743.1,BGC0003093,MIBiG
-zzzzz51,MITE0000067,RebD,Dichlorochromopyrrolate synthase,Oxidation,Q8KHV6,AAN01209.1,BGC0000821,Rhea+MIBiG
-zzzzz52,MITE0000027,OxyC,Cytochrome P450 monooxygenase,Cyclization,F8STX8,AEI58870.1,BGC0000311,MIBiG
-zzzzz53,MITE0000077,MdpB1,C-methyltransferase,Methylation,B0BLM5,ABY66020.1,BGC0001008,MIBiG
-zzzzz54,MITE0000024,XanH,FAD Halogenase,Halogenation,I1SKW0,ADE22292.1,BGC0000279,MIBiG
-zzzzz55,MITE0000182,SxtN,N-sulfotransferase,Sulfonation,A0A3G2KSQ1,AYN62308.1,,No crosslink
-zzzzz56,MITE0000124,JuiL,F420-dependent oxidoreductase,Reduction,A0A7G8Z072,QNL10607.1,BGC0002514,MIBiG
-zzzzz57,MITE0000001,AviG2,O-methyltransferase,Methylation,Q93KW1,AAK83184.1,BGC0000026,MIBiG
-zzzzz58,MITE0000116,StoC,NADH:flavin oxidoreductase,Dehydration,,TMU80020.1,BGC0002069,MIBiG
-zzzzz59,MITE0000011,MpaG,O-methyltransferase,Methylation,F1DBB3,ADY00134.1,BGC0000104,Rhea+MIBiG
-zzzzz60,MITE0000081,AgqB,alkylresorcinol monooxygenase,Hydroxylation,I0HIZ0,BAL92977.1,BGC0001077,MIBiG
-zzzzz61,MITE0000138,AnkE,NRPS independent siderophore synthetase,Other,A0A397HK89,RHZ63459.1,,Rhea
-zzzzz62,MITE0000070,RebC,Putative FAD-monooxygenase,Oxidation,Q8KI25,AAN01210.1,BGC0000821,MIBiG
-zzzzz63,MITE0000168,ProsA,Cytochrome P450,Oxidation,,WPM83320.1,BGC0003094,MIBiG
-zzzzz64,MITE0000195,HrmJ,alpha-ketoglutarate-dependent dioxygenase,Other,F8S6W1,AEH41788.1,BGC0000374,MIBiG
-zzzzz65,MITE0000017,MtmW,ketoreductase,Reduction,Q194Q1,CAK50787.1,BGC0000247,MIBiG
-zzzzz66,MITE0000032,SfmM2,SAM-dependent C-methyltransferase,Methylation,B0CN31,ABI22137.1,BGC0000422,Rhea+MIBiG
-zzzzz67,MITE0000034,GtfA,Glycosyltransferase,Glycosylation,Q6ZZJ7,CAE53349.1,BGC0000440,MIBiG
-zzzzz68,MITE0000035,Tcp24 a.k.a Orf2* a.k.a. tAtf,Acyltransferase,Multiple,Q70AY4,CAE53365.1,BGC0000440,MIBiG
-zzzzz69,MITE0000123,JuiM,Acetyltransferase,Acetylation,A0A7G8Z071,QNL10606.1,BGC0002514,MIBiG
-zzzzz70,MITE0000103,TrlF,decarboxylase hydrolase,Other,A0A2S1JZI6,AWF83810.1,BGC0001487,MIBiG
-zzzzz71,MITE0000109,CmxA,L-lysine cyclodeaminase,Multiple,A0A346D7L2,AXM43051.1,BGC0001945,Rhea+MIBiG
-zzzzz72,MITE0000172,LauB1,Cytochrome P450,Biaryl bond formation,A0A160P4S3,BAU86124.1,,No crosslink
-zzzzz73,MITE0000007,CalO1,O-methyltransferase,Methylation,Q8KNE5,AAM70343.1,BGC0000033,MIBiG
-zzzzz74,MITE0000094,TnmK2,Iterative cofactorless dioxygenase,Dioxygenation,A0A125SA15,AME18011.1,BGC0001378,MIBiG
-zzzzz75,MITE0000003,AviG6,O-methyltransferase,Methylation,Q93KV9,AAK83186.1,BGC0000026,MIBiG
-zzzzz76,MITE0000063,PtlD,Non-Heme Iron-Dependent Dehydrogenase/Oxygenase,Multiple,Q82IY7,BAC70706.1,BGC0000678,Rhea+MIBiG
-zzzzz77,MITE0000091,CYP71BN1,Cytochrome P450 monooxygenase,Oxidation,K4CI56,AGK82807.1,BGC0001322,MIBiG
-zzzzz78,MITE0000143,AvaC,kynurenine formamidase,Hydrolysis,P9WEK4,UZP48215.1,,Rhea
-zzzzz79,MITE0000092,BorH,Flavin-dependent halogenase,Halogenation,M9QSI0,AGI62217.1,BGC0001335,MIBiG
-zzzzz80,MITE0000052,BotC,Thiazole heterocyclisation-catalyzing YacO protein,Heterocyclization,K4MJT7,AFV25482.1,BGC0000469,MIBiG
-zzzzz81,MITE0000120,ZopL9 a.k.a. ZopK,AsaB-like alphaKGDD,Multiple,A0A7R6QUG3,QTE75983.1,BGC0002224,MIBiG
-zzzzz82,MITE0000097,PumI,Oxidoreductase,Oxidation,A0A2R4FXY7,AVT42378.1,BGC0001476,MIBiG
-zzzzz83,MITE0000064,PtlI,Cytochrome P450,Oxidation,Q82IY3,BAC70710.1,BGC0000678,Rhea+MIBiG
-zzzzz84,MITE0000085,NapB5,putative methyltransferase,Methylation,A7KH06,ABS50465.1,BGC0001079,MIBiG
-zzzzz85,MITE0000150,CYP158C1,Cytochrome P450,Biaryl bond formation,F8K0I8,AEW97391.1,,No crosslink
-zzzzz86,MITE0000062,CotB4,Cytochrome P450,Hydroxylation,C9K1X7,BAI44340.1,BGC0000677,Rhea+MIBiG
-zzzzz87,MITE0000098,PumK,Carboxylate-Amine Ligase,Other,A0A2R4FXX8,AVT42380.1,BGC0001476,MIBiG
-zzzzz88,MITE0000096,TnmJ,Cofactorless oxygenase,Dioxygenation,A0A125SA13,AME18009.1,BGC0001378,MIBiG
-zzzzz89,MITE0000029,KtzQ,Flavin-dependent halogenase,Halogenation,A8CF75,ABV56597.1,BGC0000378,Rhea+MIBiG
-zzzzz90,MITE0000128,OrfA,Halogenase,Halogenation,,UUL71895.1,BGC0002841,MIBiG
-zzzzz91,MITE0000082,AgqC,alkylhydroxyhydroquinone methyltransferase,Methylation,I0HIZ1,BAL92978.1,BGC0001077,MIBiG
-zzzzz92,MITE0000139,AnkD,pyridoxal-phosphate dependent enzyme,Other,A0A397HQN2,RHZ63463.1,,Rhea
-zzzzz93,MITE0000164,PhoP,Short-chain dehydrogenases/reductase,Reduction,UPI00205EBDF6,UPG58745.1,BGC0003093,MIBiG
-zzzzz94,MITE0000046,BotRMT2,radical SAM methyltransferase ,Methylation,K4MJZ5,AFV25484.1,BGC0000469,MIBiG
-zzzzz95,MITE0000012,GrhO5,Flavoprotein monooxygenase,Monooxygenation,Q8KSX7,AAM33672.1,BGC0000230,MIBiG
-zzzzz96,MITE0000106,MstE,terpene cyclase,Cyclization,A0A2D1CM82,ATN39899.1,BGC0001664,MIBiG
-zzzzz97,MITE0000141,AnkF,o-methyltransferase,Methylation,A0A397HK53,RHZ63465.1,,Rhea
-zzzzz98,MITE0000083,AgqD,UbiA-like prenyltransferase,Prenylation,I0HIZ2,BAL92979.1,BGC0001077,MIBiG
-zzzzz99,MITE0000072,TdaE,Flavoprotein dioxygenase,Dioxygenation,UPI0001633292,AFO93376.1,BGC0000932,MIBiG
-zzzz100,MITE0000176,Ple1,Cytochrome P450,Hydroxylation,A0A6S6QI82,BCI98769.1,BGC0002181,MIBiG
-zzzz101,MITE0000181,FrsC,specialized dehydrogenase for phenyllactate biosynthesis,Reduction,A0A7S9SW80,QPI18725.1,BGC0002125,MIBiG
-zzzz102,MITE0000028,BhaA,Halogenase,Halogenation,O87676,CAA76550.1,BGC0000311,MIBiG
-zzzz103,MITE0000055,McjC,Lassopeptide ATP-dependent lactam synthetase (C-protein asparagine synthetase-like),Macrolactam formation,Q9X2V9,AAD28496.1,BGC0000581,MIBiG
-zzzz104,MITE0000135,THAO,Cytochrome P450,Hydroxylation,D7MKC0,EFH40098.1,BGC0002857,MIBiG
-zzzz105,MITE0000113,NgnD,Nuclear transport factor 2 family protein,Cyclization,A0A3S7PZF0,AXG22404.1,BGC0002024,MIBiG
-zzzz106,MITE0000129,ThnJ,Aminotransferase,Deamination,A0A142I758,AMR44310.1,,No crosslink
-zzzz107,MITE0000142,AnkC,FAD-dependent monooxygenase,Monooxygenation,A0A397HQ89,RHZ63464.1,,Rhea
-zzzz108,MITE0000006,CalO6,O-methyltransferase,Methylation,Q8KND2,AAM70356.1,BGC0000033,MIBiG
-zzzz109,MITE0000144,AvaB,FAD-dependent monooxygenase ,Monooxygenation,P9WEK3,UZP48214.1,,No crosslink
-zzzz110,MITE0000115,NgnP2,Cytochrome P450,Multiple,A0A3S7PZF3,AXG22415.1,BGC0002024,MIBiG
-zzzz111,MITE0000152,ScnB,Cytochrome P450,Biaryl bond formation,A0A0F7N5T9,AKH82808.1,BGC0003035,MIBiG
-zzzz112,MITE0000084,NapB2,Monooxygenase,Oxidation,A7KGZ3,ABS50452.1,BGC0001079,MIBiG
-zzzz113,MITE0000004,AviG5,O-methyltransferase,Methylation,Q93KW5,AAK83180.1,BGC0000026,MIBiG
-zzzz114,MITE0000089,CPT2,Nerylneryl diphosphate synthase,Prenylation,K7WQ45,AGK82801.1,BGC0001322,Rhea+MIBiG
-zzzz115,MITE0000053,BotCD,Macroamidine linkage-catalyzing YacO protein from Streptomyces sp. BC16019,Cyclization,K4MHF8,AFV25483.1,BGC0000469,MIBiG
-zzzz116,MITE0000140,AnkA,cRY tRNA-dependent cyclodipeptide synthase,Other,A0A397HK51,RHZ63462.1,,Rhea
-zzzz117,MITE0000118,AcaR,NADPH-dependent oxidoreductase,Reduction,A0A5C4KWK7,TNB95040.1,BGC0002076,MIBiG
-zzzz118,MITE0000119,ScyL2,AsaB-like alphaKGDD,Hydroxylation,A0A8A5D4W2,QTE75998.1,BGC0002223,MIBiG
-zzzz119,MITE0000179,Ple5,Cytochrome P450,Hydroxylation,A0A6S6QPY4,BCI98773.1,BGC0002181,MIBiG
-zzzz120,MITE0000015,MtmMII,C-methyltransferase,Methylation,Q194P8,CAK50790.1,BGC0000247,MIBiG
-zzzz121,MITE0000153,SgrB,Cytochrome P450,Biaryl bond formation,UPI00068C79B2,,BGC0003046,MIBiG
-zzzz122,MITE0000145,AvaD,GNAT family N-acetyltransferase,Acetylation,P9WEK5,UZP48216.1,,No crosslink
-zzzz123,MITE0000058,PntD,Non-Heme Iron-Dependent Dehydrogenase/Oxygenase,Multiple,E3VWI8,ADO85576.1,BGC0000653,Rhea+MIBiG
-zzzz124,MITE0000157,PhoL,Short-chain dehydrogenases/reductase,Reduction,UPI00205DA260,UPG58741.1,BGC0003093,MIBiG
-zzzz125,MITE0000136,THAA1,Acyltransferase subfamily IIIa Arabidopsis lyrata ssp lyrata,Acetylation,UPI000A29E8C9,,BGC0002857,MIBiG
-zzzz126,MITE0000080,PokMT1,C-methyltransferase,Methylation,C0JWB3,ACN64833.1,BGC0001061,MIBiG
-zzzz127,MITE0000045,BotOMT,Carboxyl methyltransferase,Methylation,K4MJZ1,AFV25479.1,BGC0000469,MIBiG
-zzzz128,MITE0000100,PumG,Aminotransferase,Amination,A0A2R4FXY6,AVT42376.1,BGC0001476,MIBiG
-zzzz129,MITE0000031,SacF,SAM-dependent methyltransferase,Methylation,Q5JCL5,AAL33761.1,BGC0000421,MIBiG
-zzzz130,MITE0000122,AbmA,Acetyltransferase,Acetylation,I1ZAY8,AFJ20767.1,BGC0002300,MIBiG
-zzzz131,MITE0000101,Cxm5,Cytochrome P450,Heterocyclization,A0A290YXM6,AVL27080.1,BGC0001485,MIBiG
-zzzz132,MITE0000146,AvaA,cRW tRNA-dependent cyclodipeptide synthase,Other,P9WEJ7,UZP48213.1,,No crosslink
-zzzz133,MITE0000099,PumJ,Pseudouridine synthase,Other,A0A2R4FXX7,AVT42379.1,BGC0001476,MIBiG
-zzzz134,MITE0000033,GtfB,Glycosyltransferase,Glycosylation,Q6ZZI3,CAE53364.1,BGC0000440,MIBiG
-zzzz135,MITE0000131,ThnA,amidotransferase,Amination,A0A142I749,AMR44301.1,,No crosslink
-zzzz136,MITE0000009,MeiD,O-methyltransferase,Methylation,D6C4C6,ADC45587.1,BGC0000093,MIBiG
-zzzz137,MITE0000190,AurH,Cytochrome P450 Monooxygenase,Oxidation,Q70KH6,CAE02604.1,BGC0000024,MIBiG
-zzzz138,MITE0000185,FrsH,non-heme diiron monooxygenase,Hydroxylation,A0A7S9SWM2,QPI18730.1,BGC0002125,MIBiG
-zzzz139,MITE0000147,PeuJ,FMN-dependent monooxygenase,Hydroxylation,,ATW47938.1,BGC0002964,MIBiG
-zzzz140,MITE0000023,SsfM1,O-methyltransferase,Methylation,D6MSX0,ADE34508.1,BGC0000269,MIBiG
-zzzz141,MITE0000054,MibH,Flavin-dependent halogenase,Halogenation,E2IHC5,ADK32563.1,BGC0000529,MIBiG
-zzzz142,MITE0000163,PhoH,Decarboxylase,Decarboxylation,UPI0020648AC1,UPG58737.1,BGC0003093,MIBiG
-zzzz143,MITE0000075,ClmM2,O-methyltransferase,Methylation,H1ZYV4,CCC55909.1,BGC0000973,MIBiG
-zzzz144,MITE0000056,McjB,ATP-dependent protease (cysteine protease-like),Hydrolysis,Q9X2V8,AAD28495.1,BGC0000581,MIBiG
-zzzz145,MITE0000117,StoR,NAD(P)H-dependent oxidoreductase,Reduction,,TMU76675.1,BGC0002069,MIBiG
-zzzz146,MITE0000137,AnkG,ATP-grasp protein,Other,A0A397HPF2,RHZ63466.1,,Rhea
-zzzz147,MITE0000178,Ple6,Cytochrome P450,Hydroxylation,A0A6S6QP77,BCI98774.1,BGC0002181,MIBiG
-zzzz148,MITE0000107,Mca,amidase,Hydrolysis,A0A0H5B8U5,BAR97454.1,BGC0001910,MIBiG
-zzzz149,MITE0000016,MtmOIV,Oxygenase,Multiple,Q194P4,CAK50794.2,BGC0000247,MIBiG
-zzzz150,MITE0000060,PntI,Cytochrome P450,Oxidation,E3VWJ1,ADO85579.1,BGC0000653,MIBiG
-zzzz151,MITE0000108,CldC,Cytochrome P450,Oxidation,A0A0H5B5M5,BAR97452.1,BGC0001910,MIBiG
-zzzz152,MITE0000102,TrlE,Flavoprotein monooxygenase,Other,A0A2S1JZI9,AWF83809.1,BGC0001487,MIBiG
-zzzz153,MITE0000065,PtlE,Baeyer-Villiger monooxygenase,Oxidation,Q82IY8,BAC70705.1,BGC0000678,Rhea+MIBiG
-zzzz154,MITE0000160,PhoC,Short-chain dehydrogenases/reductase (SDR),Reduction,UPI00205CF1EC,UPG58732.1,BGC0003093,MIBiG
-zzzz155,MITE0000155,SrsB,Methyltransferase,Methylation,,BAG12889.1,BGC0003089,MIBiG
-zzzz156,MITE0000194,PhoO,Cytochrome P450,Biaryl bond formation,UPI0020472753,UPG58744.1,BGC0003093,MIBiG
-zzzz157,MITE0000110,NgnN4,Proline adenyltransferase,Other,A0A3S7PZH4,AXG22420.1,BGC0002024,MIBiG
-zzzz158,MITE0000037,GtfE,Glycosyltransferase,Glycosylation,P96565,AEI58873.1,BGC0000455,MIBiG
-zzzz159,MITE0000112,Ngnp1,Cytochrome P450,Multiple,A0A3S7Q0I4,AXG22409.1,BGC0002024,MIBiG
-zzzz160,MITE0000044,BotCYP,Cytochrome P450,Multiple,K4MJU2,AFV25487.2,BGC0000469,MIBiG
-zzzz161,MITE0000105,GnmP,Persulfide methyltransferase,Methylation,A0A2H4T153,ATY69565.1,BGC0001611,MIBiG
-zzzz162,MITE0000166,ProsF,O-methyltransferase,Methylation,,WPM83325.1,BGC0003094,MIBiG
-zzzz163,MITE0000159,PhoD,Dehydratase,Dehydration,UPI002070062C,UPG58733.1,BGC0003093,MIBiG
-zzzz164,MITE0000086,NapH1,Vanadium-Dependent Chloroperoxidase,Multiple,A7KGZ9,ABS50458.1,BGC0001079,MIBiG
-zzzz165,MITE0000095,TnmK1,Hydrolase.,Cyclization,A0A125SA14,AME18010.1,BGC0001378,MIBiG
-zzzz166,MITE0000051,BotH,Epimerase,Epimerization,K4MHV9,AFV25485.1,BGC0000469,MIBiG
-zzzz167,MITE0000158,PhoJ,Dioxygenase,Dioxygenation,UPI00204975FE,UPG58739.1,BGC0003093,MIBiG
-zzzz168,MITE0000061,CotB3,Cytochrome P450,Hydroxylation,C9K1X6,BAI44339.1,BGC0000677,Rhea+MIBiG
-zzzz169,MITE0000111,NgnO3,Dioxygenase,Multiple,A0A3S7PZF2,AXG22416.1,BGC0002024,MIBiG
-zzzz170,MITE0000114,NgnM,Methyltransferase,Methylation,A0A3S7PZH2,AXG22413.1,BGC0002024,MIBiG
-zzzz171,MITE0000173,embB,Cytochrome P450 installing crosslink,Biaryl bond formation,,MYS84939.1,BGC0003121,MIBiG
-zzzz172,MITE0000154,PeuJ,,Hydroxylation,A0A2S1P8Q4,AWH12915.1,BGC0003049,MIBiG
-zzzz173,MITE0000030,KtzR,Flavin-dependent halogenase,Halogenation,A8CF74,ABV56598.1,BGC0000378,Rhea+MIBiG
-zzzz174,MITE0000020,MtmGII,glycosyltransferase,Glycosylation,Q194P6,CAK50792.1,BGC0000247,MIBiG
-zzzz175,MITE0000149,MciB,P450 installing crosslink,Biaryl bond formation,A0A1C6TS88,SCL44650.1,BGC0003008,MIBiG
-zzzz176,MITE0000167,ProsD,Glyoxalase,Hydrolysis,,WPM83323.1,BGC0003094,MIBiG
-zzzz177,MITE0000169,ProsC,Short-chain dehydrogenase/reductase,Reduction,,WPM83322.1,BGC0003094,MIBiG
-zzzz178,MITE0000087,RslO4,Monooxygenase,Monooxygenation,W8QLE0,AHL46722.1,BGC0001179,MIBiG
-zzzz179,MITE0000151,PspC,Cytochrome P450 monooxygenase,Oxidation,P0DUK3,,BGC0003032,Rhea+MIBiG
-zzzz180,MITE0000068,RebO,Flavin-dependent L-tryptophan oxidase,Oxidation,Q8KHS0,AAN01208.1,BGC0000821,Rhea+MIBiG
-zzzz181,MITE0000133,THAH,Cytochrome P450,Hydroxylation,D7MKC1,EFH41844.1,BGC0002857,MIBiG
-zzzz182,MITE0000156,PhoM,Flavin-dependent monooxygenase,Monooxygenation,UPI0020464A74,UPG58742.1,BGC0003093,MIBiG
-zzzz183,MITE0000010,MeiE,Cytochrome P450,Multiple,Q6YL50,AAM97314.1,BGC0000093,MIBiG
-zzzz184,MITE0000191,PatG,Decarboxylase,Decarboxylation,A0A075TXZ1,AIG62133.1,BGC0000120,Rhea+MIBiG
-zzzz185,MITE0000076,JamD,Flavin-dependent halogenase,Halogenation,Q6E7K6,AAS98776.1,BGC0001001,MIBiG
-zzzz186,MITE0000040,Vhal,Flavin-dependent halogenase,Halogenation,P96563,AEI58871.1,BGC0000455,MIBiG
-zzzz187,MITE0000171,ProsB,Decarboxylase,Decarboxylation,,WPM83321.1,BGC0003094,MIBiG
-zzzz188,MITE0000161,PhoK,Reductase,Multiple,,UPG58740.1,BGC0003093,MIBiG
-zzzz189,MITE0000059,PntM,Cytochrome P450,Other,E3VWI3,ADO85571.1,BGC0000653,Rhea+MIBiG
-zzzz190,MITE0000088,TlmF,cytochrome P450,Oxidation,A0A0P0G6I4,ALJ49912.1,BGC0001237,MIBiG
+zzzzzz3,MITE0000207,LrcB1,Peptidase Subunit,Hydrolysis,,XMN14539.1,,No crosslink
+zzzzzz4,MITE0000134,THAS,Oxidosqualene cyclase,Cyclization,UPI000A29AD50,CAH8278777.1,BGC0002857,Rhea+MIBiG
+zzzzzz5,MITE0000039,Vmt,Methyltransferase,Methylation,E9LY85,AEI58876.1,BGC0000455,MIBiG
+zzzzzz6,MITE0000189,BorJ,Aminotransferase,Amination,Q70HZ5,CAE45674.1,BGC0000031,MIBiG
+zzzzzz7,MITE0000180,SLI_0884,Leucyl/Phenylalanil-tRNA-Protein transferase,Other,A0A7U9H9E4,EOY45603.1,BGC0001168,MIBiG
+zzzzzz8,MITE0000203,braC,Cytochrome P450,Multiple,P9WER2,QOE88885.1,BGC0002260,MIBiG
+zzzzzz9,MITE0000162,PhoG,Anthrone oxygenase,Oxidation,UPI00206D4B6A,UPG58736.1,BGC0003093,MIBiG
+zzzzz10,MITE0000104,TrlC,Oxygenase component of flavoprotein monooxygenase TrlCD,Hydroxylation,A0A2S1JZG6,AWF83807.1,BGC0001487,MIBiG
+zzzzz11,MITE0000125,JuiL,Cytochrome P450,Biaryl bond formation,A0A7G8Z073,QNL10608.1,BGC0002514,MIBiG
+zzzzz12,MITE0000132,THAA2,Acetyltransferase,Acetylation,D7MUV7,EFH40094.1,BGC0002857,MIBiG
+zzzzz13,MITE0000018,MtmGIV,glycosyltransferase,Glycosylation,Q194Q0,CAK50788.1,BGC0000247,MIBiG
+zzzzz14,MITE0000177,Ple2,Acetyltransferase,Acetylation,A0A6S6QLX9,BCI98770.1,BGC0002181,MIBiG
+zzzzz15,MITE0000184,RufO,Cytochrome p450 monooxygenase,Other,A0A224AU14,BBA20962.1,BGC0001763,MIBiG
+zzzzz16,MITE0000074,ClmM1,S-methyltransferase,Methylation,H1ZYV7,CCC55912.1,BGC0000973,MIBiG
+zzzzz17,MITE0000073,ClmAH,Amidohydrolase,Hydrolysis,H1ZYT5,CCC55916.1,BGC0000973,MIBiG
+zzzzz18,MITE0000187,HrmI,heme oxygenase-like dinuclear iron enzyme,Oxidation,F8S6W0,AEH41787.1,BGC0000374,MIBiG
+zzzzz19,MITE0000093,PhmJ,FAD-dependent halogenase,Halogenation,A0A125SL25,AMH40426.1,BGC0001350,MIBiG
+zzzzz20,MITE0000038,OxyA,Cytochrome P450 Monooxygenase,Multiple,F8STX6,AEI58868.1,BGC0000455,MIBiG
+zzzzz21,MITE0000197,HynC,non-heme diiron monooxygenase,Hydroxylation,,QWP75303.1,BGC0002126,MIBiG
+zzzzz22,MITE0000188,BorI,Cytochrome P450 monooxygenase,Multiple,Q70HZ6,CAE45673.1,BGC0000031,MIBiG
+zzzzz23,MITE0000186,HrmF,L-DOPA dioxygenase,Other,F8S6V7,AEH41784.1,BGC0000374,MIBiG
+zzzzz24,MITE0000013,GrhO6,Flavoprotein monooxygenase,Monooxygenation,Q8KSX5,AAM33673.1,BGC0000230,MIBiG
+zzzzz25,MITE0000090,TPS21,Terpene cyclase,Cyclization,R9R6P6,AGK82800.1,BGC0001322,MIBiG
+zzzzz26,MITE0000196,HynE,alpha-ketoglutarate-dependent dioxygenase,Hydroxylation,,QWP75301.1,BGC0002126,MIBiG
+zzzzz27,MITE0000002,AviG4,O-methyltransferase,Methylation,L8PIQ8,ELS56114.1,BGC0000026,MIBiG
+zzzzz28,MITE0000121,AbmB,L-Ornithine N(5)-oxygenase,Hydroxylation,I1ZAY9,AFJ20768.1,BGC0002300,Rhea+MIBiG
+zzzzz29,MITE0000069,RebH,tryptophane halogenase,Halogenation,Q8KHZ8,AAN01216.1,BGC0000821,Rhea+MIBiG
+zzzzz30,MITE0000008,CalO2,Cytochrome P450me,Hydroxylation,Q8KND6,AAM94799.1,BGC0000033,MIBiG
+zzzzz31,MITE0000019,MtmGIII,glycosyltransferase,Glycosylation,Q194P9,CAK50789.1,BGC0000247,MIBiG
+zzzzz32,MITE0000014,MtmMI,O-methyltransferase,Methylation,Q194P7,CAK50791.1,BGC0000247,MIBiG
+zzzzz33,MITE0000130,ThnH,tryptophan 6-halogenase,Halogenation,A0A142I756,AMR44308.1,,Rhea
+zzzzz34,MITE0000057,PntE,Baeyer-Villiger monooxygenase,Oxidation,E3VWI7,ADO85575.1,BGC0000653,Rhea+MIBiG
+zzzzz35,MITE0000047,BotRMT3,radical SAM methyltransferase,Methylation,K4MHG1,AFV25488.1,BGC0000469,MIBiG
+zzzzz36,MITE0000050,BotAH,Aminohydrolase,Hydrolysis,K4MV58,AFV25486.1,BGC0000469,MIBiG
+zzzzz37,MITE0000066,RebP,Cytochrome P-450,Oxidation,Q8KIC8,AAN01211.1,BGC0000821,MIBiG
+zzzzz38,MITE0000192,CtoA,Halogenase,Halogenation,A0A0M4KXQ6,ALD83700.1,BGC0001299,MIBiG
+zzzzz39,MITE0000170,ProsK,Cytochrome P450,Cyclization,,WPM83319.1,BGC0003094,MIBiG
+zzzzz40,MITE0000022,SsfM4,C-methyltransferase,Methylation,D6MSU6,ADE34484.1,BGC0000269,MIBiG
+zzzzz41,MITE0000005,CalO3,Flavin-dependent halogenase,Halogenation,Q8KND5,AAM70353.1,BGC0000033,MIBiG
+zzzzz42,MITE0000049,BotRMT1,rSAM methyltransferase,Methylation,K4MHV5,AFV25480.1,BGC0000469,MIBiG
+zzzzz43,MITE0000042,GtfD,Glycosyltransferase,Glycosylation,P96564,AEI58872.1,BGC0000455,MIBiG
+zzzzz44,MITE0000127,AetA,Flavin-dependent halogenase,Halogenation,A0A861B8S3,QNL15171.1,BGC0002643,MIBiG
+zzzzz45,MITE0000193,AlbA,Albonoursin synthase/cyclic dipeptide oxidase,Dehydrogenation,Q8GED9,AAN07907.1,BGC0000851,Rhea+MIBiG
+zzzzz46,MITE0000043,SgvP,cytochrome P450,Heterocyclization,R9USI6,AGN74891.1,BGC0000459,MIBiG
+zzzzz47,MITE0000071,Bmp2,Flavin-dependent halogenase,Halogenation,U6BGC3,AHA34035.1,BGC0000891,MIBiG
+zzzzz48,MITE0000126,AetF,Flavin-dependent halogenase,Halogenation,A0A861B9Z9,QNL15176.1,BGC0002643,MIBiG
+zzzzz49,MITE0000209,LrcC,Lassopeptide lactam synthetase,Macrolactam formation,,XMN14537.1,,No crosslink
+zzzzz50,MITE0000174,BytO,cytochrome P450,Biaryl bond formation,A0A891LYB2,QRM13816.1,BGC0002099,MIBiG
+zzzzz51,MITE0000021,SsfM2,O-methyltransferase,Methylation,D6MSW0,ADE34498.1,BGC0000269,MIBiG
+zzzzz52,MITE0000041,OxyB,Cytochrome P450 Monooxygenase,Multiple,F8STX7,AEI58869.1,BGC0000455,MIBiG
+zzzzz53,MITE0000165,PhoN,Isomerase,Other,,UPG58743.1,BGC0003093,MIBiG
+zzzzz54,MITE0000067,RebD,Dichlorochromopyrrolate synthase,Oxidation,Q8KHV6,AAN01209.1,BGC0000821,Rhea+MIBiG
+zzzzz55,MITE0000027,OxyC,Cytochrome P450 monooxygenase,Cyclization,F8STX8,AEI58870.1,BGC0000311,MIBiG
+zzzzz56,MITE0000077,MdpB1,C-methyltransferase,Methylation,B0BLM5,ABY66020.1,BGC0001008,MIBiG
+zzzzz57,MITE0000024,XanH,FAD Halogenase,Halogenation,I1SKW0,ADE22292.1,BGC0000279,MIBiG
+zzzzz58,MITE0000182,SxtN,N-sulfotransferase,Sulfonation,A0A3G2KSQ1,AYN62308.1,,No crosslink
+zzzzz59,MITE0000198,PyrH,Flavin-dependent 5-halogenase,Halogenation,A4D0H5,AAU95674.1,,Rhea
+zzzzz60,MITE0000124,JuiL,F420-dependent oxidoreductase,Reduction,A0A7G8Z072,QNL10607.1,BGC0002514,MIBiG
+zzzzz61,MITE0000001,AviG2,O-methyltransferase,Methylation,Q93KW1,AAK83184.1,BGC0000026,MIBiG
+zzzzz62,MITE0000116,StoC,NADH:flavin oxidoreductase,Dehydration,,TMU80020.1,BGC0002069,MIBiG
+zzzzz63,MITE0000011,MpaG,O-methyltransferase,Methylation,F1DBB3,ADY00134.1,BGC0000104,Rhea+MIBiG
+zzzzz64,MITE0000081,AgqB,alkylresorcinol monooxygenase,Hydroxylation,I0HIZ0,BAL92977.1,BGC0001077,MIBiG
+zzzzz65,MITE0000138,AnkE,NRPS independent siderophore synthetase,Other,A0A397HK89,RHZ63459.1,,Rhea
+zzzzz66,MITE0000070,RebC,Putative FAD-monooxygenase,Oxidation,Q8KI25,AAN01210.1,BGC0000821,MIBiG
+zzzzz67,MITE0000168,ProsA,Cytochrome P450,Oxidation,,WPM83320.1,BGC0003094,MIBiG
+zzzzz68,MITE0000195,HrmJ,alpha-ketoglutarate-dependent dioxygenase,Other,F8S6W1,AEH41788.1,BGC0000374,MIBiG
+zzzzz69,MITE0000017,MtmW,ketoreductase,Reduction,Q194Q1,CAK50787.1,BGC0000247,MIBiG
+zzzzz70,MITE0000032,SfmM2,SAM-dependent C-methyltransferase,Methylation,B0CN31,ABI22137.1,BGC0000422,Rhea+MIBiG
+zzzzz71,MITE0000034,GtfA,Glycosyltransferase,Glycosylation,Q6ZZJ7,CAE53349.1,BGC0000440,MIBiG
+zzzzz72,MITE0000035,Tcp24 a.k.a Orf2* a.k.a. tAtf,Acyltransferase,Multiple,Q70AY4,CAE53365.1,BGC0000440,MIBiG
+zzzzz73,MITE0000123,JuiM,Acetyltransferase,Acetylation,A0A7G8Z071,QNL10606.1,BGC0002514,MIBiG
+zzzzz74,MITE0000103,TrlF,decarboxylase hydrolase,Other,A0A2S1JZI6,AWF83810.1,BGC0001487,MIBiG
+zzzzz75,MITE0000109,CmxA,L-lysine cyclodeaminase,Multiple,A0A346D7L2,AXM43051.1,BGC0001945,Rhea+MIBiG
+zzzzz76,MITE0000172,LauB1,Cytochrome P450,Biaryl bond formation,A0A160P4S3,BAU86124.1,,No crosslink
+zzzzz77,MITE0000007,CalO1,O-methyltransferase,Methylation,Q8KNE5,AAM70343.1,BGC0000033,MIBiG
+zzzzz78,MITE0000094,TnmK2,Iterative cofactorless dioxygenase,Dioxygenation,A0A125SA15,AME18011.1,BGC0001378,MIBiG
+zzzzz79,MITE0000003,AviG6,O-methyltransferase,Methylation,Q93KV9,AAK83186.1,BGC0000026,MIBiG
+zzzzz80,MITE0000063,PtlD,Non-Heme Iron-Dependent Dehydrogenase/Oxygenase,Multiple,Q82IY7,BAC70706.1,BGC0000678,Rhea+MIBiG
+zzzzz81,MITE0000091,CYP71BN1,Cytochrome P450 monooxygenase,Oxidation,K4CI56,AGK82807.1,BGC0001322,MIBiG
+zzzzz82,MITE0000143,AvaC,kynurenine formamidase,Hydrolysis,P9WEK4,UZP48215.1,,Rhea
+zzzzz83,MITE0000210,CheE,Cytochrome P450 monooxygenase,Monooxygenation,P0CU31,EAQ93007.1,,No crosslink
+zzzzz84,MITE0000092,BorH,Flavin-dependent halogenase,Halogenation,M9QSI0,AGI62217.1,BGC0001335,MIBiG
+zzzzz85,MITE0000052,BotC,Thiazole heterocyclisation-catalyzing YacO protein,Heterocyclization,K4MJT7,AFV25482.1,BGC0000469,MIBiG
+zzzzz86,MITE0000120,ZopL9 a.k.a. ZopK,AsaB-like alphaKGDD,Multiple,A0A7R6QUG3,QTE75983.1,BGC0002224,MIBiG
+zzzzz87,MITE0000097,PumI,Oxidoreductase,Oxidation,A0A2R4FXY7,AVT42378.1,BGC0001476,MIBiG
+zzzzz88,MITE0000064,PtlI,Cytochrome P450,Oxidation,Q82IY3,BAC70710.1,BGC0000678,Rhea+MIBiG
+zzzzz89,MITE0000085,NapB5,putative methyltransferase,Methylation,A7KH06,ABS50465.1,BGC0001079,MIBiG
+zzzzz90,MITE0000150,CYP158C1,Cytochrome P450,Biaryl bond formation,F8K0I8,AEW97391.1,,No crosslink
+zzzzz91,MITE0000062,CotB4,Cytochrome P450,Hydroxylation,C9K1X7,BAI44340.1,BGC0000677,Rhea+MIBiG
+zzzzz92,MITE0000098,PumK,Carboxylate-Amine Ligase,Other,A0A2R4FXX8,AVT42380.1,BGC0001476,MIBiG
+zzzzz93,MITE0000211,PyiA,O-methyltransferase,Methylation,A0A4P8WAD3,QCS37511.1,BGC0001881,MIBiG
+zzzzz94,MITE0000096,TnmJ,Cofactorless oxygenase,Dioxygenation,A0A125SA13,AME18009.1,BGC0001378,MIBiG
+zzzzz95,MITE0000029,KtzQ,Flavin-dependent halogenase,Halogenation,A8CF75,ABV56597.1,BGC0000378,Rhea+MIBiG
+zzzzz96,MITE0000206,AoL4,Cytochrome P450,Hydroxylation,Q2U1B3,BAE64652.1,,No crosslink
+zzzzz97,MITE0000128,OrfA,Halogenase,Halogenation,,UUL71895.1,BGC0002841,MIBiG
+zzzzz98,MITE0000082,AgqC,alkylhydroxyhydroquinone methyltransferase,Methylation,I0HIZ1,BAL92978.1,BGC0001077,MIBiG
+zzzzz99,MITE0000139,AnkD,pyridoxal-phosphate dependent enzyme,Other,A0A397HQN2,RHZ63463.1,,Rhea
+zzzz100,MITE0000164,PhoP,Short-chain dehydrogenases/reductase,Reduction,UPI00205EBDF6,UPG58745.1,BGC0003093,MIBiG
+zzzz101,MITE0000046,BotRMT2,radical SAM methyltransferase ,Methylation,K4MJZ5,AFV25484.1,BGC0000469,MIBiG
+zzzz102,MITE0000012,GrhO5,Flavoprotein monooxygenase,Monooxygenation,Q8KSX7,AAM33672.1,BGC0000230,MIBiG
+zzzz103,MITE0000106,MstE,terpene cyclase,Cyclization,A0A2D1CM82,ATN39899.1,BGC0001664,MIBiG
+zzzz104,MITE0000208,LrcF,Peptidase clostripain-family,Hydrolysis,,XMN14533.1,,No crosslink
+zzzz105,MITE0000141,AnkF,o-methyltransferase,Methylation,A0A397HK53,RHZ63465.1,,Rhea
+zzzz106,MITE0000083,AgqD,UbiA-like prenyltransferase,Prenylation,I0HIZ2,BAL92979.1,BGC0001077,MIBiG
+zzzz107,MITE0000072,TdaE,Flavoprotein dioxygenase,Dioxygenation,UPI0001633292,AFO93376.1,BGC0000932,MIBiG
+zzzz108,MITE0000176,Ple1,Cytochrome P450,Hydroxylation,A0A6S6QI82,BCI98769.1,BGC0002181,MIBiG
+zzzz109,MITE0000181,FrsC,specialized dehydrogenase for phenyllactate biosynthesis,Reduction,A0A7S9SW80,QPI18725.1,BGC0002125,MIBiG
+zzzz110,MITE0000028,BhaA,Halogenase,Halogenation,O87676,CAA76550.1,BGC0000311,MIBiG
+zzzz111,MITE0000055,McjC,Lassopeptide ATP-dependent lactam synthetase (C-protein asparagine synthetase-like),Macrolactam formation,Q9X2V9,AAD28496.1,BGC0000581,MIBiG
+zzzz112,MITE0000135,THAO,Cytochrome P450,Hydroxylation,D7MKC0,EFH40098.1,BGC0002857,MIBiG
+zzzz113,MITE0000113,NgnD,Nuclear transport factor 2 family protein,Cyclization,A0A3S7PZF0,AXG22404.1,BGC0002024,MIBiG
+zzzz114,MITE0000129,ThnJ,Aminotransferase,Deamination,A0A142I758,AMR44310.1,,No crosslink
+zzzz115,MITE0000142,AnkC,FAD-dependent monooxygenase,Monooxygenation,A0A397HQ89,RHZ63464.1,,Rhea
+zzzz116,MITE0000006,CalO6,O-methyltransferase,Methylation,Q8KND2,AAM70356.1,BGC0000033,MIBiG
+zzzz117,MITE0000144,AvaB,FAD-dependent monooxygenase ,Monooxygenation,P9WEK3,UZP48214.1,,No crosslink
+zzzz118,MITE0000115,NgnP2,Cytochrome P450,Multiple,A0A3S7PZF3,AXG22415.1,BGC0002024,MIBiG
+zzzz119,MITE0000152,ScnB,Cytochrome P450,Biaryl bond formation,A0A0F7N5T9,AKH82808.1,BGC0003035,MIBiG
+zzzz120,MITE0000084,NapB2,Monooxygenase,Oxidation,A7KGZ3,ABS50452.1,BGC0001079,MIBiG
+zzzz121,MITE0000004,AviG5,O-methyltransferase,Methylation,Q93KW5,AAK83180.1,BGC0000026,MIBiG
+zzzz122,MITE0000089,CPT2,Nerylneryl diphosphate synthase,Prenylation,K7WQ45,AGK82801.1,BGC0001322,Rhea+MIBiG
+zzzz123,MITE0000053,BotCD,Macroamidine linkage-catalyzing YacO protein from Streptomyces sp. BC16019,Cyclization,K4MHF8,AFV25483.1,BGC0000469,MIBiG
+zzzz124,MITE0000140,AnkA,cRY tRNA-dependent cyclodipeptide synthase,Other,A0A397HK51,RHZ63462.1,,Rhea
+zzzz125,MITE0000118,AcaR,NADPH-dependent oxidoreductase,Reduction,A0A5C4KWK7,TNB95040.1,BGC0002076,MIBiG
+zzzz126,MITE0000119,ScyL2,AsaB-like alphaKGDD,Hydroxylation,A0A8A5D4W2,QTE75998.1,BGC0002223,MIBiG
+zzzz127,MITE0000179,Ple5 a.k.a. PLE5_RHOPP,Cytochrome P450,Hydroxylation,A0A6S6QPY4,BCI98773.1,BGC0002181,MIBiG
+zzzz128,MITE0000015,MtmMII,C-methyltransferase,Methylation,Q194P8,CAK50790.1,BGC0000247,MIBiG
+zzzz129,MITE0000153,SgrB,Cytochrome P450,Biaryl bond formation,UPI00068C79B2,,BGC0003046,MIBiG
+zzzz130,MITE0000145,AvaD,GNAT family N-acetyltransferase,Acetylation,P9WEK5,UZP48216.1,,No crosslink
+zzzz131,MITE0000058,PntD,Non-Heme Iron-Dependent Dehydrogenase/Oxygenase,Multiple,E3VWI8,ADO85576.1,BGC0000653,Rhea+MIBiG
+zzzz132,MITE0000157,PhoL,Short-chain dehydrogenases/reductase,Reduction,UPI00205DA260,UPG58741.1,BGC0003093,MIBiG
+zzzz133,MITE0000136,THAA1,Acyltransferase subfamily IIIa Arabidopsis lyrata ssp lyrata,Acetylation,UPI000A29E8C9,,BGC0002857,MIBiG
+zzzz134,MITE0000080,PokMT1,C-methyltransferase,Methylation,C0JWB3,ACN64833.1,BGC0001061,MIBiG
+zzzz135,MITE0000045,BotOMT,Carboxyl methyltransferase,Methylation,K4MJZ1,AFV25479.1,BGC0000469,MIBiG
+zzzz136,MITE0000100,PumG,Aminotransferase,Amination,A0A2R4FXY6,AVT42376.1,BGC0001476,MIBiG
+zzzz137,MITE0000031,SacF,SAM-dependent methyltransferase,Methylation,Q5JCL5,AAL33761.1,BGC0000421,MIBiG
+zzzz138,MITE0000122,AbmA,Acetyltransferase,Acetylation,I1ZAY8,AFJ20767.1,BGC0002300,MIBiG
+zzzz139,MITE0000101,Cxm5,Cytochrome P450,Heterocyclization,A0A290YXM6,AVL27080.1,BGC0001485,MIBiG
+zzzz140,MITE0000201,NodW,Cytochrome P450 Monooxygenase,Oxidation,A0A2I6PJ08,AUM60065.1,BGC0001706,MIBiG
+zzzz141,MITE0000146,AvaA,cRW tRNA-dependent cyclodipeptide synthase,Other,P9WEJ7,UZP48213.1,,No crosslink
+zzzz142,MITE0000099,PumJ,Pseudouridine synthase,Other,A0A2R4FXX7,AVT42379.1,BGC0001476,MIBiG
+zzzz143,MITE0000033,GtfB,Glycosyltransferase,Glycosylation,Q6ZZI3,CAE53364.1,BGC0000440,MIBiG
+zzzz144,MITE0000131,ThnA,amidotransferase,Amination,A0A142I749,AMR44301.1,,No crosslink
+zzzz145,MITE0000009,MeiD,O-methyltransferase,Methylation,D6C4C6,ADC45587.1,BGC0000093,MIBiG
+zzzz146,MITE0000190,AurH,Cytochrome P450 Monooxygenase,Oxidation,Q70KH6,CAE02604.1,BGC0000024,MIBiG
+zzzz147,MITE0000185,FrsH,non-heme diiron monooxygenase,Hydroxylation,A0A7S9SWM2,QPI18730.1,BGC0002125,MIBiG
+zzzz148,MITE0000147,PeuJ,FMN-dependent monooxygenase,Hydroxylation,,ATW47938.1,BGC0002964,MIBiG
+zzzz149,MITE0000023,SsfM1,O-methyltransferase,Methylation,D6MSX0,ADE34508.1,BGC0000269,MIBiG
+zzzz150,MITE0000199,NodM,FAD-dependent monooxygenase,Oxidation,A0A2I6PIZ2,AUM60051.1,BGC0001706,MIBiG
+zzzz151,MITE0000054,MibH,Flavin-dependent halogenase,Halogenation,E2IHC5,ADK32563.1,BGC0000529,MIBiG
+zzzz152,MITE0000163,PhoH,Decarboxylase,Decarboxylation,UPI0020648AC1,UPG58737.1,BGC0003093,MIBiG
+zzzz153,MITE0000075,ClmM2,O-methyltransferase,Methylation,H1ZYV4,CCC55909.1,BGC0000973,MIBiG
+zzzz154,MITE0000056,McjB,ATP-dependent protease (cysteine protease-like),Hydrolysis,Q9X2V8,AAD28495.1,BGC0000581,MIBiG
+zzzz155,MITE0000117,StoR,NAD(P)H-dependent oxidoreductase,Reduction,,TMU76675.1,BGC0002069,MIBiG
+zzzz156,MITE0000137,AnkG,ATP-grasp protein,Other,A0A397HPF2,RHZ63466.1,,Rhea
+zzzz157,MITE0000178,Ple6,Cytochrome P450,Hydroxylation,A0A6S6QP77,BCI98774.1,BGC0002181,MIBiG
+zzzz158,MITE0000107,Mca,amidase,Hydrolysis,A0A0H5B8U5,BAR97454.1,BGC0001910,MIBiG
+zzzz159,MITE0000016,MtmOIV,Oxygenase,Multiple,Q194P4,CAK50794.2,BGC0000247,MIBiG
+zzzz160,MITE0000060,PntI,Cytochrome P450,Oxidation,E3VWJ1,ADO85579.1,BGC0000653,MIBiG
+zzzz161,MITE0000108,CldC,Cytochrome P450,Oxidation,A0A0H5B5M5,BAR97452.1,BGC0001910,MIBiG
+zzzz162,MITE0000102,TrlE,Flavoprotein monooxygenase,Other,A0A2S1JZI9,AWF83809.1,BGC0001487,MIBiG
+zzzz163,MITE0000065,PtlE,Baeyer-Villiger monooxygenase,Oxidation,Q82IY8,BAC70705.1,BGC0000678,Rhea+MIBiG
+zzzz164,MITE0000160,PhoC,Short-chain dehydrogenases/reductase (SDR),Reduction,UPI00205CF1EC,UPG58732.1,BGC0003093,MIBiG
+zzzz165,MITE0000155,SrsB,Methyltransferase,Methylation,,BAG12889.1,BGC0003089,MIBiG
+zzzz166,MITE0000194,PhoO,Cytochrome P450,Biaryl bond formation,UPI0020472753,UPG58744.1,BGC0003093,MIBiG
+zzzz167,MITE0000110,NgnN4,Proline adenyltransferase,Other,A0A3S7PZH4,AXG22420.1,BGC0002024,MIBiG
+zzzz168,MITE0000037,GtfE,Glycosyltransferase,Glycosylation,P96565,AEI58873.1,BGC0000455,MIBiG
+zzzz169,MITE0000112,Ngnp1,Cytochrome P450,Multiple,A0A3S7Q0I4,AXG22409.1,BGC0002024,MIBiG
+zzzz170,MITE0000044,BotCYP,Cytochrome P450,Multiple,K4MJU2,AFV25487.2,BGC0000469,MIBiG
+zzzz171,MITE0000105,GnmP,Persulfide methyltransferase,Methylation,A0A2H4T153,ATY69565.1,BGC0001611,MIBiG
+zzzz172,MITE0000166,ProsF,O-methyltransferase,Methylation,,WPM83325.1,BGC0003094,MIBiG
+zzzz173,MITE0000159,PhoD,Dehydratase,Dehydration,UPI002070062C,UPG58733.1,BGC0003093,MIBiG
+zzzz174,MITE0000086,NapH1,Vanadium-Dependent Chloroperoxidase,Multiple,A7KGZ9,ABS50458.1,BGC0001079,MIBiG
+zzzz175,MITE0000095,TnmK1,Hydrolase.,Cyclization,A0A125SA14,AME18010.1,BGC0001378,MIBiG
+zzzz176,MITE0000202,BraB,N-acetylglucosamine transferase,Glycosylation,P9WER1,QOE88884.1,BGC0002260,MIBiG
+zzzz177,MITE0000051,BotH,Epimerase,Epimerization,K4MHV9,AFV25485.1,BGC0000469,MIBiG
+zzzz178,MITE0000158,PhoJ,Dioxygenase,Dioxygenation,UPI00204975FE,UPG58739.1,BGC0003093,MIBiG
+zzzz179,MITE0000061,CotB3,Cytochrome P450,Hydroxylation,C9K1X6,BAI44339.1,BGC0000677,Rhea+MIBiG
+zzzz180,MITE0000111,NgnO3,Dioxygenase,Multiple,A0A3S7PZF2,AXG22416.1,BGC0002024,MIBiG
+zzzz181,MITE0000114,NgnM,Methyltransferase,Methylation,A0A3S7PZH2,AXG22413.1,BGC0002024,MIBiG
+zzzz182,MITE0000173,ScaB aka EmbB,Cytochrome P450,Biaryl bond formation,UPI00039B9B9D,MYS84939.1,BGC0003121,MIBiG
+zzzz183,MITE0000154,PeuJ,Monooxygenase,Hydroxylation,A0A2S1P8Q4,AWH12915.1,BGC0003049,MIBiG
+zzzz184,MITE0000030,KtzR,Flavin-dependent halogenase,Halogenation,A8CF74,ABV56598.1,BGC0000378,Rhea+MIBiG
+zzzz185,MITE0000020,MtmGII,glycosyltransferase,Glycosylation,Q194P6,CAK50792.1,BGC0000247,MIBiG
+zzzz186,MITE0000149,MciB,P450 installing crosslink,Biaryl bond formation,A0A1C6TS88,SCL44650.1,BGC0003008,MIBiG
+zzzz187,MITE0000167,ProsD,Glyoxalase,Hydrolysis,,WPM83323.1,BGC0003094,MIBiG
+zzzz188,MITE0000169,ProsC,Short-chain dehydrogenase/reductase,Reduction,,WPM83322.1,BGC0003094,MIBiG
+zzzz189,MITE0000087,RslO4,Monooxygenase,Monooxygenation,W8QLE0,AHL46722.1,BGC0001179,MIBiG
+zzzz190,MITE0000151,PspC,Cytochrome P450 monooxygenase,Oxidation,P0DUK3,,BGC0003032,Rhea+MIBiG
+zzzz191,MITE0000068,RebO,Flavin-dependent L-tryptophan oxidase,Oxidation,Q8KHS0,AAN01208.1,BGC0000821,Rhea+MIBiG
+zzzz192,MITE0000133,THAH,Cytochrome P450,Hydroxylation,D7MKC1,EFH41844.1,BGC0002857,MIBiG
+zzzz193,MITE0000156,PhoM,Flavin-dependent monooxygenase,Monooxygenation,UPI0020464A74,UPG58742.1,BGC0003093,MIBiG
+zzzz194,MITE0000010,MeiE,Cytochrome P450,Multiple,Q6YL50,AAM97314.1,BGC0000093,MIBiG
+zzzz195,MITE0000191,PatG,Decarboxylase,Decarboxylation,A0A075TXZ1,AIG62133.1,BGC0000120,Rhea+MIBiG
+zzzz196,MITE0000076,JamD,Flavin-dependent halogenase,Halogenation,Q6E7K6,AAS98776.1,BGC0001001,MIBiG
+zzzz197,MITE0000205,XhR1,Cytochrome P450 Monooxygenase,Multiple,A0A4Z0Z6W8,TGJ85106.1,,No crosslink
+zzzz198,MITE0000200,NodB,Terpene cyclase,Cyclization,A0A2I6PJ07,AUM60064.1,BGC0001706,MIBiG
+zzzz199,MITE0000040,VhaA,Flavin-dependent halogenase,Halogenation,P96563,AEI58871.1,BGC0000455,MIBiG
+zzzz200,MITE0000204,AoL1,Short-chain dehydrogenase/reductase (SDR),Oxidation,Q2U1B0,BAE64655.1,,No crosslink
+zzzz201,MITE0000171,ProsB,Decarboxylase,Decarboxylation,,WPM83321.1,BGC0003094,MIBiG
+zzzz202,MITE0000161,PhoK,Reductase,Multiple,,UPG58740.1,BGC0003093,MIBiG
+zzzz203,MITE0000059,PntM,Cytochrome P450,Other,E3VWI3,ADO85571.1,BGC0000653,Rhea+MIBiG
+zzzz204,MITE0000088,TlmF,cytochrome P450,Oxidation,A0A0P0G6I4,ALJ49912.1,BGC0001237,MIBiG
