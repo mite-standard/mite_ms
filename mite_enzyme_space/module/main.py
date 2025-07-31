@@ -341,10 +341,10 @@ class PlotManager(AbstractManager):
         df.sort_values(by=["ncbi_nr_matches"], ascending=True, inplace=True)
 
         log_counts = np.log10(df["ncbi_nr_matches"])
-        bins = np.linspace(np.floor(min(log_counts)), np.ceil(max(log_counts)), 15)
+        bins = np.linspace(np.floor(min(log_counts)), np.ceil(max(log_counts)), 10)
         hist_vals, bin_edges = np.histogram(log_counts, bins=bins)
 
-        fig, ax = plt.subplots(figsize=(4, 4))
+        fig, ax = plt.subplots(figsize=(3, 3))
         for i in range(len(hist_vals)):
             ax.bar(bin_edges[i], hist_vals[i],
                    width=bin_edges[i + 1] - bin_edges[i],
