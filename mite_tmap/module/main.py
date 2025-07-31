@@ -300,32 +300,62 @@ class PlotManager(AbstractManager):
 
         df_tmap = pd.DataFrame({"x": x, "y": y, "c": y_values})
 
+        # full palette
+        # sns.set_palette(
+        #     [
+        #         "#9ad59a",  # acetylation
+        #         "#91efd4",  # amination
+        #         "#c2c3d0",  # biaryl
+        #         "#ccc0dd",  # cycliz
+        #         "#decd87",  # deamination
+        #         "#dcb89d",  # decarboxylation
+        #         "#ff9b9b",  # dehydr
+        #         "#ffaf79",  # dehydrogen
+        #         "#ffffaf",  # dioxygenation
+        #         "#78804d",  # epimerisation
+        #         "#c0d1b6",  # glycosly
+        #         "#93b0b0",  # halogenation
+        #         "#8caad1",  # heterocycl
+        #         "#9d6ab1",  # hydrolysis
+        #         "#b958aa",  # hydoxylation
+        #         "#ab4962",  # macrolactam
+        #         "#dd626a",  # methylation
+        #         "#d57058",  # monooxygenation
+        #         "#5599ff",  # multiple
+        #         "#afafaf",  # other
+        #         "#b38466",  # oxidation
+        #         "#5dc851",  # prenylation
+        #         "#958479",  # reduction
+        #         "#f78c6a",  # sulfonation
+        #     ]
+        # )
+        # simplified palette
         sns.set_palette(
             [
-                "#9ad59a",  # acetylation
-                "#91efd4",  # amination
-                "#c2c3d0",  # biaryl
-                "#ccc0dd",  # cycliz
-                "#decd87",  # deamination
-                "#dcb89d",  # decarboxylation
-                "#ff9b9b",  # dehydr
-                "#ffaf79",  # dehydrogen
-                "#ffffaf",  # dioxygenation
-                "#78804d",  # epimerisation
-                "#c0d1b6",  # glycosly
-                "#93b0b0",  # halogenation
-                "#8caad1",  # heterocycl
-                "#9d6ab1",  # hydrolysis
+                "#afafaf",  # acetylation
+                "#afafaf",  # amination
+                "#afafaf",  # biaryl
+                "#afafaf",  # cycliz
+                "#afafaf",  # deamination
+                "#afafaf",  # decarboxylation
+                "#afafaf",  # dehydr
+                "#afafaf",  # dehydrogen
+                "#afafaf",  # dioxygenation
+                "#afafaf",  # epimerisation
+                "#afafaf",  # glycosly
+                "#5599ff",  # halogenation
+                "#afafaf",  # heterocycl
+                "#afafaf",  # hydrolysis
                 "#b958aa",  # hydoxylation
-                "#ab4962",  # macrolactam
+                "#afafaf",  # macrolactam
                 "#dd626a",  # methylation
-                "#d57058",  # monooxygenation
-                "#5599ff",  # multiple
+                "#afafaf",  # monooxygenation
+                "#afafaf",  # multiple
                 "#afafaf",  # other
                 "#b38466",  # oxidation
-                "#5dc851",  # prenylation
-                "#958479",  # reduction
-                "#f78c6a",  # sulfonation
+                "#afafaf",  # prenylation
+                "#afafaf",  # reduction
+                "#afafaf",  # sulfonation
             ]
         )
 
