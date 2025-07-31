@@ -36,6 +36,7 @@ from Bio import SeqIO
 from Bio.Blast import NCBIWWW, NCBIXML
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
+import numpy as np
 import pandas as pd
 from pydantic import BaseModel
 import requests
@@ -339,28 +340,31 @@ class PlotManager(AbstractManager):
         df = pd.read_csv(infile)
         df.sort_values(by=["ncbi_nr_matches"], ascending=True, inplace=True)
 
-        plt.figure(figsize=(4, 6))
-        sns.boxplot(y=df["ncbi_nr_matches"], width=0.4)
-        plt.yscale("log")
+        log_counts = np.log10(df["ncbi_nr_matches"])
+        bins = np.linspace(np.floor(min(log_counts)), np.ceil(max(log_counts)), 15)
+        hist_vals, bin_edges = np.histogram(log_counts, bins=bins)
+
+        fig, ax = plt.subplots(figsize=(4, 4))
+        for i in range(len(hist_vals)):
+            ax.bar(bin_edges[i], hist_vals[i],
+                   width=bin_edges[i + 1] - bin_edges[i],
+                   align='edge',
+                   color="darkgrey",
+                   linewidth=1,
+                   edgecolor='black')
+
+        ax.set_xticks([0, 1, 2, 3, 4])
+        ax.set_xticklabels(['1', '10', '100', '1,000', '10,000'])
+        ax.set_xlabel('Match counts (log-scale)', fontsize=12)
+        ax.set_ylabel('Frequency', fontsize=12)
+
+        sns.despine()
+        ax.tick_params(axis='both', which='major', labelsize=12)
+        plt.rcParams['font.family'] = 'sans-serif'
 
         plt.tight_layout()
 
-        plt.subplots_adjust(
-            top=0.975,  # Control the top margin
-            bottom=0.5,  # Control the bottom margin
-            left=0.5,  # Control the left margin
-            right=0.963,  # Control the right margin
-        )
-
-        plt.tick_params(axis="y", labelsize=14)
-
-        def thousands(x, pos):
-            """The two args are the value and tick position"""
-            return f"{int(x):,}"
-
-        plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(thousands))
-
-        plt.savefig(self.output.joinpath("log_boxplot.svg"), format="svg")
+        plt.savefig(self.output.joinpath("histogram.svg"), format="svg")
 
         self.write_summary(df)
 
@@ -383,7 +387,7 @@ class PlotManager(AbstractManager):
 
         json_dict = {key: float(value) for key, value in summary.items()}
 
-        with open(self.output.joinpath("boxplot_summary.json"), "w") as outfile:
+        with open(self.output.joinpath("summary_stats.json"), "w") as outfile:
             outfile.write(json.dumps(json_dict, indent=2))
 
 

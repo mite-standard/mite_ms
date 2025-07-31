@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_7755977</BlastOutput_query-ID>
+  <BlastOutput_query-def>MITE0000207</BlastOutput_query-def>
+  <BlastOutput_query-len>89</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1e-05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_7755977</Iteration_query-ID>
+  <Iteration_query-def>MITE0000207</Iteration_query-def>
+  <Iteration_query-len>89</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_105600223.1|</Hit_id>
+  <Hit_def>MULTISPECIES: PqqD family peptide modification chaperone [Paenibacillus] &gt;gb|MBD8840539.1| PqqD family peptide modification chaperone [Paenibacillus sp. CFBP 13594] &gt;gb|MDQ0723882.1| frataxin-like iron-binding protein CyaY [Paenibacillus sp. W4I10] &gt;gb|MGG4400402.1| PqqD family peptide modification chaperone [Paenibacillus amylolyticus] &gt;gb|PRA03516.1| hypothetical protein CQ043_18475 [Paenibacillus sp. MYb63] &gt;gb|PRA46934.1| hypothetical protein CQ061_16740 [Paenibacillus sp. MYb67]</Hit_def>
+  <Hit_accession>WP_105600223</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.37894e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVDVS</Hsp_qseq>
+      <Hsp_hseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVDVS</Hsp_hseq>
+      <Hsp_midline>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVDVS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_091012792.1|</Hit_id>
+  <Hit_def>PqqD family peptide modification chaperone [Paenibacillus amylolyticus] &gt;gb|XVL59835.1| PqqD family peptide modification chaperone [Paenibacillus amylolyticus]</Hit_def>
+  <Hit_accession>WP_091012792</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.866</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>1.73519e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVDVS</Hsp_qseq>
+      <Hsp_hseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGAREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVDVS</Hsp_hseq>
+      <Hsp_midline>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETG REFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVDVS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_076214942.1|</Hit_id>
+  <Hit_def>MULTISPECIES: PqqD family peptide modification chaperone [Paenibacillus] &gt;gb|OMF61595.1| hypothetical protein BK141_20680 [Paenibacillus sp. FSL R5-0765] &gt;gb|WYR35690.1| PqqD family peptide modification chaperone [Paenibacillus sp. FSL R5-0766]</Hit_def>
+  <Hit_accession>WP_076214942</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>1.59226e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVDVS</Hsp_qseq>
+      <Hsp_hseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFDQILSKWKSEFDQSEAELTDILQNAIQELWAKNLVKVDAS</Hsp_hseq>
+      <Hsp_midline>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREF+QILSKWKSEFDQSEAELT ILQNAIQEL AK LVKVD S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_307415796.1|</Hit_id>
+  <Hit_def>PqqD family peptide modification chaperone [Paenibacillus sp. W2I17] &gt;gb|MDQ0659837.1| frataxin-like iron-binding protein CyaY [Paenibacillus sp. W2I17]</Hit_def>
+  <Hit_accession>WP_307415796</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>9.96086e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVDVS</Hsp_qseq>
+      <Hsp_hseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFDQILSKWKREFDQSEAELTDILQNAIQELWAKNLVKVDAS</Hsp_hseq>
+      <Hsp_midline>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREF+QILSKWK EFDQSEAELT ILQNAIQEL AK LVKVD S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_215077461.1|</Hit_id>
+  <Hit_def>PqqD family peptide modification chaperone [Paenibacillus polymyxa] &gt;gb|MBT2285316.1| PqqD family peptide modification chaperone [Paenibacillus polymyxa]</Hit_def>
+  <Hit_accession>WP_215077461</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>1.1489e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVDVS</Hsp_qseq>
+      <Hsp_hseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTKDFDQILSKWKREFDQSEAELTDILQTAIQELSAKRLVKVDAS</Hsp_hseq>
+      <Hsp_midline>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGT++F+QILSKWK EFDQSEAELT ILQ AIQELSAK+LVKVD S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_310343359.1|</Hit_id>
+  <Hit_def>PqqD family peptide modification chaperone [Paenibacillus sp. 2003] &gt;gb|MDR6721548.1| frataxin-like iron-binding protein CyaY [Paenibacillus sp. 2003]</Hit_def>
+  <Hit_accession>WP_310343359</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>3.67868e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVDVS</Hsp_qseq>
+      <Hsp_hseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGAQEFDQILSKWKREFDQSEAELTYILQTAIQELSTKKLVKVDAS</Hsp_hseq>
+      <Hsp_midline>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETG +EF+QILSKWK EFDQSEAELT ILQ AIQELS KKLVKVD S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_148956980.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacillus swezeyi] &gt;gb|KAA6451112.1| hypothetical protein DX927_09855 [Bacillus swezeyi] &gt;gb|KAA6474758.1| hypothetical protein DX928_11985 [Bacillus swezeyi] &gt;gb|MFT0801757.1| hypothetical protein [Bacillus swezeyi] &gt;gb|MFT0824817.1| hypothetical protein [Bacillus swezeyi] &gt;gb|MFT0856044.1| hypothetical protein [Bacillus swezeyi]</Hit_def>
+  <Hit_accession>WP_148956980</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>1.98051e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MKITRIQETATTVLENECIVLNLDNGQYFGLEGALMELWLEIQNERKDTKDILIKWKSEFDQTEEELSIILIEAIQELTQNQLIKIE</Hsp_hseq>
+      <Hsp_midline>MKI R +ETATT L  ECIVL+++NG+YFGLEGALMELWLE++   ++   IL KWKSEFDQ+E EL++IL  AIQEL+  +L+K++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_048352761.1|</Hit_id>
+  <Hit_def>PqqD family peptide modification chaperone [Bacillus glycinifermentans] &gt;gb|ATH93654.1| PqqD family protein [Bacillus glycinifermentans] &gt;gb|KRT90171.1| hypothetical protein AB447_206205 [Bacillus glycinifermentans] &gt;gb|MEC0483856.1| PqqD family peptide modification chaperone [Bacillus glycinifermentans] &gt;gb|MEC0496351.1| PqqD family peptide modification chaperone [Bacillus glycinifermentans] &gt;gb|MEC0539356.1| PqqD family peptide modification chaperone [Bacillus glycinifermentans]</Hit_def>
+  <Hit_accession>WP_048352761</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.95773e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MKITRNEETATTVLENECIVLNLDNGQYFGLEGALKELWMEIENERKDTKDILVKWKTEFDQTEEELSNILHEAIQELTQSKLLHIE</Hsp_hseq>
+      <Hsp_midline>MKI R+EETATT L  ECIVL+++NG+YFGLEGAL ELW+E+E   ++   IL KWK+EFDQ+E EL+ IL  AIQEL+  KL+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_076759527.1|</Hit_id>
+  <Hit_def>PqqD family peptide modification chaperone [Bacillus swezeyi] &gt;gb|MEC1259170.1| PqqD family peptide modification chaperone [Bacillus swezeyi] &gt;gb|MED1740495.1| PqqD family peptide modification chaperone [Bacillus swezeyi] &gt;gb|MED2927869.1| PqqD family peptide modification chaperone [Bacillus swezeyi] &gt;gb|MED2942130.1| PqqD family peptide modification chaperone [Bacillus swezeyi] &gt;gb|MED2965219.1| PqqD family peptide modification chaperone [Bacillus swezeyi]</Hit_def>
+  <Hit_accession>WP_076759527</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>6.32544e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MKITRIQETATTVLENECIVLNLDNGQYFGLEGALKELWLEIQNERKDTKDILIKWKTEFDQTEEELSIILIEAIQELTQNQLIKIE</Hsp_hseq>
+      <Hsp_midline>MKI R +ETATT L  ECIVL+++NG+YFGLEGAL ELWLE++   ++   IL KWK+EFDQ+E EL++IL  AIQEL+  +L+K++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_003186189.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacillales] &gt;gb|ETB70335.1| hypothetical protein A943_15735 [Bacillus sp. CPSM8] &gt;gb|MBY8348400.1| hypothetical protein [Bacillus sp. PCH94] &gt;gb|MDP4079964.1| hypothetical protein [Bacillota bacterium] &gt;gb|AAU25473.1| hypothetical protein BL03876 [Bacillus licheniformis DSM 13 = ATCC 14580] &gt;gb|AAU42848.1| hypothetical protein BLi04035 [Bacillus licheniformis DSM 13 = ATCC 14580]</Hit_def>
+  <Hit_accession>WP_003186189</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>7.29408e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MKIIRNQETATTVLENECIVLNLDNGQYFGLEGALKELWIEIENERKDKKDILIKWQSAFDQTEEELSAILNEAIQELTHHKLIKIE</Hsp_hseq>
+      <Hsp_midline>MKI R++ETATT L  ECIVL+++NG+YFGLEGAL ELW+E+E   ++   IL KW+S FDQ+E EL+ IL  AIQEL+  KL+K++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_144582944.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacillus licheniformis] &gt;gb|MGG1355916.1| hypothetical protein [Bacillus licheniformis] &gt;gb|TWK21292.1| hypothetical protein CHCC20373_3952 [Bacillus licheniformis]</Hit_def>
+  <Hit_accession>WP_144582944</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>7.45573e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MKIIRNQETATTVLENECIVLNLDNGQYFGLEGALKELWIEIENERKDKKDILIKWQSAFDQTEEELSAILNEAIQELTHHKLIKIE</Hsp_hseq>
+      <Hsp_midline>MKI R++ETATT L  ECIVL+++NG+YFGLEGAL ELW+E+E   ++   IL KW+S FDQ+E EL+ IL  AIQEL+  KL+K++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_061565870.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacillus] &gt;gb|MDP4125291.1| hypothetical protein [Bacillota bacterium] &gt;gb|AWV42638.1| hypothetical protein CD200_20240 [Bacillus licheniformis] &gt;gb|AZN77577.1| hypothetical protein CXG95_00080 [Bacillus licheniformis] &gt;gb|KYD03001.1| hypothetical protein B4164_4318 [Bacillus licheniformis] &gt;gb|MCC2132705.1| hypothetical protein [Bacillus licheniformis]</Hit_def>
+  <Hit_accession>WP_061565870</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>7.62097e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MKIIRNQETATTVLENECIVLNLDNGQYFGLEGALKELWIEIENERKDKKDILIKWQSAFDQTEEELSAILNEAIQELTHHKLIKIE</Hsp_hseq>
+      <Hsp_midline>MKI R++ETATT L  ECIVL+++NG+YFGLEGAL ELW+E+E   ++   IL KW+S FDQ+E EL+ IL  AIQEL+  KL+K++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|MED3602956.1|</Hit_id>
+  <Hit_def>PqqD family peptide modification chaperone [Bacillus subtilis] &gt;gb|OTQ85463.1| hypothetical protein BG30_10460 [Bacillus subtilis subsp. subtilis] &gt;gb|MED3628504.1| PqqD family peptide modification chaperone [Bacillus subtilis] &gt;gb|MED3693460.1| PqqD family peptide modification chaperone [Bacillus subtilis] &gt;gb|WEY98318.1| PqqD family peptide modification chaperone [Bacillus subtilis]</Hit_def>
+  <Hit_accession>MED3602956</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>8.31935e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MKITRNEETATTVLENECIVLNLDNGQYFGLEGALKELWLEIENERKDTKDILVKWNTEFDQTEEELSNILHKAIQELTQSKLLDIE</Hsp_hseq>
+      <Hsp_midline>MKI R+EETATT L  ECIVL+++NG+YFGLEGAL ELWLE+E   ++   IL KW +EFDQ+E EL+ IL  AIQEL+  KL+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_165428357.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacillus paralicheniformis] &gt;gb|QII51080.1| hypothetical protein G3M81_21075 [Bacillus paralicheniformis]</Hit_def>
+  <Hit_accession>WP_165428357</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>9.8059e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MKIIRNQETATTILENECIVLNLDNGQYFGLEGALKELWIEIENERKDKKDILIKWQSAFDQTEEELSAILNEAIQELTHHKLIKIE</Hsp_hseq>
+      <Hsp_midline>MKI R++ETATT L  ECIVL+++NG+YFGLEGAL ELW+E+E   ++   IL KW+S FDQ+E EL+ IL  AIQEL+  KL+K++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_101561345.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacillus paralicheniformis] &gt;gb|PLC15265.1| hypothetical protein BV582_13310 [Bacillus paralicheniformis] &gt;gb|QSG00784.1| hypothetical protein DI291_20785 [Bacillus paralicheniformis] &gt;gb|TWJ43813.1| hypothetical protein CHCC5027_1970 [Bacillus paralicheniformis]</Hit_def>
+  <Hit_accession>WP_101561345</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>1.50355e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MKIIRNQETATTVLENECIVLNLDNGQYFGLEGALKELWIEIENERKDKKDILIKWQSAFDQSEEELSAILNEAIQELTHHKLIEIE</Hsp_hseq>
+      <Hsp_midline>MKI R++ETATT L  ECIVL+++NG+YFGLEGAL ELW+E+E   ++   IL KW+S FDQSE EL+ IL  AIQEL+  KL++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_268294987.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacillus haynesii] &gt;gb|MCY7752255.1| hypothetical protein [Bacillus haynesii] &gt;gb|MCY7769164.1| hypothetical protein [Bacillus haynesii] &gt;gb|MCY7789594.1| hypothetical protein [Bacillus haynesii] &gt;gb|MCY7847736.1| hypothetical protein [Bacillus haynesii] &gt;gb|MCY7862300.1| hypothetical protein [Bacillus haynesii]</Hit_def>
+  <Hit_accession>WP_268294987</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>3.30986e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MKIIRNQETATTVLENECIVLNLDNGQYFGLEGALKELWIEIENERKDKKDILIKWQSAFDQTEEELSAILNEAIRELTHHKLIKIE</Hsp_hseq>
+      <Hsp_midline>MKI R++ETATT L  ECIVL+++NG+YFGLEGAL ELW+E+E   ++   IL KW+S FDQ+E EL+ IL  AI+EL+  KL+K++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_080624126.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacillus licheniformis] &gt;gb|ARC70089.1| hypothetical protein B34_02675 [Bacillus licheniformis] &gt;gb|MDE1422245.1| hypothetical protein [Bacillus licheniformis] &gt;gb|MDQ9095916.1| hypothetical protein [Bacillus licheniformis] &gt;gb|MEC0476410.1| hypothetical protein [Bacillus licheniformis] &gt;gb|MEC0488584.1| hypothetical protein [Bacillus licheniformis]</Hit_def>
+  <Hit_accession>WP_080624126</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>3.69322e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MKIIRNQETATTVLENECIVLNLDNGQFFGLEGALKELWIEIENERKDKKDILIKWQSAFDQTEEELSAILNEAIQELTHHKLIKIE</Hsp_hseq>
+      <Hsp_midline>MKI R++ETATT L  ECIVL+++NG++FGLEGAL ELW+E+E   ++   IL KW+S FDQ+E EL+ IL  AIQEL+  KL+K++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_026580277.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacillus] &gt;gb|POO81659.1| hypothetical protein C1T30_15750 [Bacillus sp. MBGLi97] &gt;gb|AJO20456.1| hypothetical protein SC10_B2orf06090 [Bacillus paralicheniformis] &gt;gb|KAA0835640.1| hypothetical protein EI979_19525 [Bacillus paralicheniformis] &gt;gb|KAA0842387.1| hypothetical protein EI977_04190 [Bacillus paralicheniformis] &gt;gb|KRT91751.1| hypothetical protein ACH97_213510 [Bacillus paralicheniformis]</Hit_def>
+  <Hit_accession>WP_026580277</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>4.40104e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MKIIRNQETATTVLENECIVLNLDNGQYFGLEGALKELWIEIENERKDKKDILIKWQSAFDQTEEELSAILNEAIQELTHHKLIEIE</Hsp_hseq>
+      <Hsp_midline>MKI R++ETATT L  ECIVL+++NG+YFGLEGAL ELW+E+E   ++   IL KW+S FDQ+E EL+ IL  AIQEL+  KL++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_172771142.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [unclassified Lysinibacillus] &gt;gb|QPQ36178.1| hypothetical protein JNUCC52_04420 [Lysinibacillus sp. JNUCC-52] &gt;gb|UED82163.1| hypothetical protein FH508_0009775 [Lysinibacillus sp. CD3-6]</Hit_def>
+  <Hit_accession>WP_172771142</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>1.0392e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKV</Hsp_qseq>
+      <Hsp_hseq>MKIARNKDIATTVMEQECIILDLKSGQYFGLEHALKELWLEIDNEYKDIKVILSKWKSQFDQSEEELVQILYEATRELADKKLIKI</Hsp_hseq>
+      <Hsp_midline>MKIAR+++ ATT + +ECI+LD+ +G+YFGLE AL ELWLE++   ++   ILSKWKS+FDQSE EL  IL  A +EL+ KKL+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_326137048.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacillus paralicheniformis] &gt;gb|MEC1024383.1| hypothetical protein [Bacillus paralicheniformis] &gt;gb|MEC1026655.1| hypothetical protein [Bacillus paralicheniformis] &gt;gb|MEC1052260.1| hypothetical protein [Bacillus paralicheniformis] &gt;gb|MEC1062891.1| hypothetical protein [Bacillus paralicheniformis] &gt;gb|MEC1082988.1| hypothetical protein [Bacillus paralicheniformis]</Hit_def>
+  <Hit_accession>WP_326137048</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>1.91109e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MKIIRNQETATTVLENECIVLNLDNGQYFGLEWALKELWIEIENERKDKKDILIKWQSAFDQTEEELSAILNEAIQELTHHKLIKIE</Hsp_hseq>
+      <Hsp_midline>MKI R++ETATT L  ECIVL+++NG+YFGLE AL ELW+E+E   ++   IL KW+S FDQ+E EL+ IL  AIQEL+  KL+K++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_340824783.1|</Hit_id>
+  <Hit_def>hypothetical protein [Lysinibacillus sp. FSL W8-0992]</Hit_def>
+  <Hit_accession>WP_340824783</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>8.6137e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKV</Hsp_qseq>
+      <Hsp_hseq>MKIARKEEIATTVLDQECIILDLKRGQYFGLENALKELWLEIEHEYKDTKIILTKWKKHFNQTEEELAQILYEAIRELADKQLIKI</Hsp_hseq>
+      <Hsp_midline>MKIAR EE ATT L +ECI+LD+  G+YFGLE AL ELWLE+E   ++   IL+KWK  F+Q+E EL  IL  AI+EL+ K+L+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>tpg|HEK9103805.1|</Hit_id>
+  <Hit_def>PqqD family peptide modification chaperone [Bacillus pseudomycoides]</Hit_def>
+  <Hit_accession>HEK9103805</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>1.94265e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKV</Hsp_qseq>
+      <Hsp_hseq>MIITRNKNTSTTNLENECIVLHKGNGQYFGLEGALKELWMEIEEDKKDTKDIVLKWKSKFDQDESELSLILNEMIDNLIENELLNI</Hsp_hseq>
+      <Hsp_midline>M I R++ T+TT+L  ECIVL   NG+YFGLEGAL ELW+E+E   ++   I+ KWKS+FDQ E+EL++IL   I  L   +L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_006212740.1|</Hit_id>
+  <Hit_def>MULTISPECIES: PqqD family protein [Paenibacillus] &gt;gb|ANA79507.1| hypothetical protein A3958_05690 [Paenibacillus glucanolyticus] &gt;gb|AVV56544.1| PqqD family protein [Paenibacillus glucanolyticus] &gt;gb|AWP25710.1| PqqD family protein [Paenibacillus sp. Cedars] &gt;gb|EFU38369.1| hypothetical protein PVOR_30213 [Paenibacillus vortex V453] &gt;gb|ETT31177.1| hypothetical protein C169_25068 [Paenibacillus sp. FSL R5-808]</Hit_def>
+  <Hit_accession>WP_006212740</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>8.60229e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MMISQKEEVYTTVHDQEVVLLDMNQGKYFGLEGAAMALWNELSQGPVTTSAILEKWKTIYDQAEDELNSLLTQSLEELTAKRLVVVD</Hsp_hseq>
+      <Hsp_midline>M I++ EE  TT   +E ++LD+N G+YFGLEGA M LW EL  G    + IL KWK+ +DQ+E EL  +L  +++EL+AK+LV VD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_174103871.1|</Hit_id>
+  <Hit_def>MULTISPECIES: PqqD family peptide modification chaperone [unclassified Bacillus (in: firmicutes)] &gt;gb|MBC6973537.1| PqqD family peptide modification chaperone [Bacillus sp. Xin] &gt;gb|NSW39494.1| PqqD family peptide modification chaperone [Bacillus sp. Xin1]</Hit_def>
+  <Hit_accession>WP_174103871</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>1.14327e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MIITRNKNTSTTNLENECIVLHKGSGQYFGLEGALKELWMEIEEDKKDTKDIVLKWKSKFDQDESELSLILNEMIENLIENELLNIE</Hsp_hseq>
+      <Hsp_midline>M I R++ T+TT+L  ECIVL   +G+YFGLEGAL ELW+E+E   ++   I+ KWKS+FDQ E+EL++IL   I+ L   +L+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_152827344.1|</Hit_id>
+  <Hit_def>PqqD family protein [Paenibacillus glucanolyticus] &gt;gb|MPY19704.1| PqqD family protein [Paenibacillus glucanolyticus]</Hit_def>
+  <Hit_accession>WP_152827344</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>2.13339e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MMISQKEEVYTTVHDQEVVLLDMNQGKYFGLEGAAMALWNELSQGPVTTSAILEKWKTIYDQEEDELNSLLTQSLEELTAKRLVVVD</Hsp_hseq>
+      <Hsp_midline>M I++ EE  TT   +E ++LD+N G+YFGLEGA M LW EL  G    + IL KWK+ +DQ E EL  +L  +++EL+AK+LV VD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_432775823.1|</Hit_id>
+  <Hit_def>PqqD family protein [Brevibacillus gelatini] &gt;gb|XVN71050.1| PqqD family protein [Brevibacillus gelatini]</Hit_def>
+  <Hit_accession>WP_432775823</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>3.21461e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKV</Hsp_qseq>
+      <Hsp_hseq>MIVSQREEIYTTEMGDEIVLLDMRHGAYYGLEGATMELWKELADGPVDSAQILAKWTQLYQQSEEELTSMLDQSIQELISKKLIVV</Hsp_hseq>
+      <Hsp_midline>M +++ EE  TT + +E ++LD+ +G Y+GLEGA MELW EL  G  +  QIL+KW   + QSE ELT +L  +IQEL +KKL+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_122904683.1|</Hit_id>
+  <Hit_def>PqqD family protein [Brevibacillus gelatini] &gt;gb|RNB57354.1| PqqD family protein [Brevibacillus gelatini]</Hit_def>
+  <Hit_accession>WP_122904683</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>3.32185e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKV</Hsp_qseq>
+      <Hsp_hseq>MIVSQREEIYTTEMGDEIVLLDMKHGAYYGLEGATMELWKELADGPVDSAQILAKWTQLYQQSEEELTSMLDQSIQELISKKLIVV</Hsp_hseq>
+      <Hsp_midline>M +++ EE  TT + +E ++LD+ +G Y+GLEGA MELW EL  G  +  QIL+KW   + QSE ELT +L  +IQEL +KKL+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_235286078.1|</Hit_id>
+  <Hit_def>PqqD family protein [Paenibacillus tarimensis] &gt;gb|MCF2942779.1| PqqD family protein [Paenibacillus tarimensis] &gt;emb|CAM4194712.1| PqqD family protein [Paenibacillus tarimensis]</Hit_def>
+  <Hit_accession>WP_235286078</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>3.35371e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKV</Hsp_qseq>
+      <Hsp_hseq>MLLGQREEVYTTDLGDEIVLLDMNNGAYFGLEGATMALWQELGDGPKHASVILARWRQIYEHPSETLEVLLQEAIAHLRQKDLISV</Hsp_hseq>
+      <Hsp_midline>M + + EE  TT L +E ++LD+NNG YFGLEGA M LW EL  G +  + IL++W+  ++     L V+LQ AI  L  K L+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_138184771.1|</Hit_id>
+  <Hit_def>PqqD family protein [Paenibacillus alvei] &gt;emb|SYX82415.1| conserved protein of unknown function [Paenibacillus alvei]</Hit_def>
+  <Hit_accession>WP_138184771</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.24219e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MIISQKEEIYTTVHGEEIVLLDMMQGMYFGLEGASAKIWEELGQGPVAVSAILEKWKDVYDQTGDELESLLSQSVQELIDKRLVVVE</Hsp_hseq>
+      <Hsp_midline>M I++ EE  TT   EE ++LD+  G YFGLEGA  ++W EL  G    + IL KWK  +DQ+  EL  +L  ++QEL  K+LV V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_088233251.1|</Hit_id>
+  <Hit_def>MULTISPECIES: PqqD family peptide modification chaperone [Bacillus] &gt;gb|MDH4424706.1| hypothetical protein [Bacillus cereus] &gt;gb|PGL82361.1| hypothetical protein CN931_14930 [Bacillus sp. AFS054943] &gt;gb|PGU02801.1| hypothetical protein COD19_10705 [Bacillus cereus] &gt;gb|PGX16222.1| hypothetical protein COE07_01805 [Bacillus sp. AFS033286] &gt;gb|PGZ68483.1| hypothetical protein COE49_25340 [Bacillus sp. AFS029637]</Hit_def>
+  <Hit_accession>WP_088233251</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>3.12795e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MIIRQNDMVSSTIHDEEVVLLDMSKEIYYGLEGATMLLWNELSDGPVDTIKILEKWKSKYDHSEEEVEHIFSQSLHELTSRDLVVID</Hsp_hseq>
+      <Hsp_midline>M I +++  ++T   EE ++LD++   Y+GLEGA M LW EL  G  +  +IL KWKS++D SE E+  I   ++ EL+++ LV +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_017474083.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacillus licheniformis]</Hit_def>
+  <Hit_accession>WP_017474083</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>3.714e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQIL</Hsp_qseq>
+      <Hsp_hseq>MKIIRNQETATTVLENECIVLNLDNGQYFGLEGALKELWIEIENERKDKKDIL</Hsp_hseq>
+      <Hsp_midline>MKI R++ETATT L  ECIVL+++NG+YFGLEGAL ELW+E+E   ++   IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_275857558.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacillus pseudomycoides] &gt;gb|MDF2084797.1| hypothetical protein [Bacillus pseudomycoides]</Hit_def>
+  <Hit_accession>WP_275857558</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>6.02328e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQS-EAELTVILQNAIQELSAKKLVKVD</Hsp_qseq>
+      <Hsp_hseq>MIIRQNDMVSSTIHDEEVVLLDMSKEVYYGLEGATMLLWNELSNGPVDTVKILEEWKSKYDHSEEEEVEHIFSQSLHELTSRDLVVID</Hsp_hseq>
+      <Hsp_midline>M I +++  ++T   EE ++LD++   Y+GLEGA M LW EL  G  +  +IL +WKS++D S E E+  I   ++ EL+++ LV +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_332298703.1|</Hit_id>
+  <Hit_def>PqqD family protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_332298703</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>7.99143e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKIARSEETATT-SLSEECIVLDINNGEYFGLEGALMELWLELETGTREFNQILSKWKSEFDQSEAELTVILQNAIQELSAKKLVKV</Hsp_qseq>
+      <Hsp_hseq>MLLKKNSNTVTSIANEEETIVLHISEGEYYGLEGAHKEIWDNFNQNSFEKKSIVEEFLSKFDNSKEEIQKLVDESVMDLINYKLIMV</Hsp_hseq>
+      <Hsp_midline>M + ++  T T+ +  EE IVL I+ GEY+GLEGA  E+W      + E   I+ ++ S+FD S+ E+  ++  ++ +L   KL+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>944216523</Statistics_db-num>
+      <Statistics_db-len>1902012927</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
