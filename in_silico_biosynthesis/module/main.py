@@ -60,7 +60,7 @@ def mite_api_call(accession: str) -> str:
     Returns:
         the reaction SMARTS of the first reaction entry
     """
-    response = requests.get(f"https://mite.bioinformatics.nl/api/{accession}", timeout=10)
+    response = requests.get(f"https://mite.bioinformatics.nl/api/v1/mite/{accession}", timeout=10)
     if response.status_code != 200:
         raise RuntimeError(f"Error in MITE API call: {response.status_code}")
 
