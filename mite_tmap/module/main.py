@@ -257,14 +257,14 @@ class PlotManager(AbstractManager):
 
         fig, ax = plt.subplots(1, 1, sharex=False, sharey=False)
         fig.set_figheight(5)
-        fig.set_figwidth(10)
+        fig.set_figwidth(4)
 
         CFG_TMAP = tm.LayoutConfiguration()
         CFG_TMAP.k = 50
         CFG_TMAP.kc = 50
         CFG_TMAP.sl_scaling_min = 1.0
-        CFG_TMAP.sl_scaling_max = 1.0
-        CFG_TMAP.sl_repeats = 1
+        CFG_TMAP.sl_scaling_max = 100.0
+        CFG_TMAP.sl_repeats = 5
         CFG_TMAP.sl_extra_scaling_steps = 2
         CFG_TMAP.placer = tm.Placer.Barycenter
         CFG_TMAP.merger = tm.Merger.LocalBiconnected
@@ -273,7 +273,7 @@ class PlotManager(AbstractManager):
         CFG_TMAP.fme_iterations = 1000
         CFG_TMAP.sl_scaling_type = tm.ScalingType.RelativeToDesiredLength
         CFG_TMAP.node_size = 5
-        CFG_TMAP.mmm_repeats = 1
+        CFG_TMAP.mmm_repeats = 4
 
         y_values = df["tailoring"].tolist()
         knn = []
@@ -381,6 +381,7 @@ class PlotManager(AbstractManager):
         )
 
         ax.axis("off")
+        ax.get_legend().remove()
         plt.tight_layout()
 
         plt.savefig(self.output.joinpath("tmap_mite_plain.svg"), format="svg")

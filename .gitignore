@@ -1,10 +1,24 @@
 # Custom
 .idea
-mite_ssn/module/data
+
+version.json
+
 mite_descriptive/module/data
-mite_tmap/module/data
-mite_tmap/module/output/rxn_smiles.pickle
+mite_descriptive/module/output
+
+mite_enzyme_space/module/data
+mite_enzyme_space/module/output
+
 mite_orcid_wordcloud/module/data
+mite_orcid_wordcloud/module/output
+
+mite_sunburst/mite_sunburst_plot.svg
+mite_sunburst/module/summary.csv
+
+mite_tmap/module/data
+mite_tmap/module/output
+
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
