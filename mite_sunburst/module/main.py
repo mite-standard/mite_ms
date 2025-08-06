@@ -27,7 +27,7 @@ def download() -> pd.DataFrame:
 def plot() -> None:
     """Plot sunburst from data file"""
 
-    inner = "kingdom"
+    inner = "domain"
     outer = "phylum"
 
     df = pd.read_csv(src)
