@@ -32,6 +32,7 @@ def plot() -> None:
 
     df = pd.read_csv(src)
     df_clean = df[(df[inner] != "Not found") & (df[outer] != "Not found")]
+    df_clean = df_clean[df_clean["status"] == "active"]
     sunburst_data = df_clean.groupby([inner, outer]).size().reset_index(name='count')
 
     print("Number of retained entries for sunburst plot:")
