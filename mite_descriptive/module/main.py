@@ -198,10 +198,10 @@ class MetadataManager(AbstractManager):
 
             cleaned = []
             for line in self.datapoints:
-                if line[0].startswith("changelog"):
+                if "changelog" in line[0]:
                     continue
                 else:
-                    cleaned.append(line[1])
+                    cleaned.append(line)
 
             for line in set(cleaned):
                 f.write(f"{line}\n")
