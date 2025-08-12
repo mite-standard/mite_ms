@@ -200,6 +200,14 @@ class MetadataManager(AbstractManager):
             for line in self.datapoints:
                 if "changelog" in line[0]:
                     continue
+                elif "accession" in line[0]:
+                    continue
+                elif "comment" in line[0]:
+                    continue
+                elif "retirementReasons" in line[0]:
+                    continue
+                elif "status" in line[0]:
+                    continue
                 else:
                     cleaned.append(line)
 
