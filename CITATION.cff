@@ -1,0 +1,23 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: MITE Manuscript Files
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Mitja M.
+    family-names: Zdouc
+    email: mmzdouc@gmail.com
+    affiliation: Wageningen University
+    orcid: 'https://orcid.org/0000-0001-6534-6609'
+repository-code: 'https://github.com/mite-standard'
+url: 'https://mite.bioinformatics.nl/'
+abstract: >-
+  This repository holds the computer code for downloading
+  data and creating the figures used in the MITE manuscript.
+keywords:
+  - Tailoring enzyme
+license: MIT
